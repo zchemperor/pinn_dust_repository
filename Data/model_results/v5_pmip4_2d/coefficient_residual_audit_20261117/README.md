@@ -1,0 +1,18 @@
+independent evaluation on reconstructed point sets; not a recovery of the original training losses
+
+# Fixed-coefficient residual diagnostics
+
+Scope: 30 primary Wind-PINN +30 primary Diffusion-PINN +18 zero-wind residual-weight fits. No Relative-D scalar-optimum inference. No training, optimization, input edits or manuscript edits.
+
+## Files and definitions
+
+- coefficients.csv: 78 exact checkpoint scalar transforms, raw parameter, D_nd−0.02, and near-bound fraction; 17 significant digits. Coefficients are dimensionless numerical parameters, not measured diffusivities.
+- residual_diagnostics.csv: 156 independent evaluations. A is signed dimensionless advection; q is dimensionless diffusion with D_nd=1 and fixed network. a_squared_mean=<A²>; q_squared_mean=<q²>; a_q_product_mean=<Aq> is an uncentred product mean. diffusion_squared_mean=D_nd²<q²>; signed_cross_term=2D_nd<Aq>; residual_squared_mean=<R²>. Never take the absolute value of the cross term. All means are arithmetic point means.
+- conditional_gradient/curvature: derivative of unweighted residual MSE with respect to an independent D_nd probe, holding the fitted field fixed; not network gradient or joint identifiability. conditional_unbounded_optimum is −<Aq>/<q²> when q²>0. Conditional location denotes interior or the limiting lower/upper bound of the sigmoid interval; it is not a claim about attained optimization. cancellation_fraction=−cross/(A²+diffusion²), retaining sign.
+- observation/seam/north/south *_mse: unweighted independent losses at reconstructed observation and BC points. Non-PDE weights are 10,0.5,0.5,1,1. weighted_residual=pde_weight*residual_squared_mean; independent_composite_objective adds weighted_nonpde; pde_fraction divides the two. The regular-grid variant replaces PDE points only. These are not recovered historical objectives, nor gradient contribution estimates.
+- point_sets/*.npz and point_set_inventory.csv: actual reconstructed PDE/observation/BC arrays and independent grid arrays, normalized coordinates lon/90 and lat/90. Reconstruction: 2618 interior +218 boundary +training anchors, duplicates retained. Independent grid: 120×60 cell centres on [-2,2]×[-0.89,0.89]. Both are unweighted means, not sphere-area integrals. No historical collocation arrays were recovered.
+- historical_loss_components.csv: original already-weighted logged losses, not independent evaluations or recovered historical fields; 151 logged steps per fit. The evaluation_notice describes the diagnostic's scope, while data_origin distinguishes historical log extraction. historical_fraction_summary.csv summarizes these recorded values by family/model/weight/step.
+- point_set_sensitivity.csv: paired grid/reconstructed ratios by run; these point sets are not independent runs. independent_vs_logged_final.csv compares numerical values without claiming historical point recovery.
+- numerical_checks.csv: final prediction restoration against saved normalized predictions; algebraic decomposition, independent constant-coefficient Laplacian and autodiff probe checks. summary_by_split.csv retains split-level min/median/max. validation.json checks original inputs and current submission package are unchanged. manifest.json records source/output hashes and versions.
+
+Missing/undefined conditional values are blank, not zero. Split and run labels retain project bookkeeping for reproducibility. Reports make no significance, convergence, atmospheric identification, or causal mechanism claim. Small final PDE loss cannot exclude earlier optimization-path effects. No new files have been added to the submission package or published remotely.

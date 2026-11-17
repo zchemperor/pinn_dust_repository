@@ -70,7 +70,7 @@ EPS_TEXT_REPLACEMENTS = {
 
 
 def apply_style():
-    """Apply JEM-compatible style globally."""
+    """Apply the shared style globally."""
     mpl.rcParams.update(PARAMS_JCP)
 
 

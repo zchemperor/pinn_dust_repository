@@ -1,0 +1,103 @@
+﻿source_family,source_table,source_data_row_1based,candidate_core,candidate_lon,candidate_lat,candidate_LGM_raw,candidate_LGM,candidate_HOL,candidate_reference,candidate_reference_2,candidate_sample_type_code,candidate_data_type_code,candidate_comments,candidate_flag,candidate_age_begin_ka,candidate_age_end_ka,candidate_age_model,candidate_PM10_fraction,candidate_starred_LGM,has_both_bounds
+DIRTMAP_v2,table2_marine_sediment.txt,1,NGC97 (LH3166),160.9983333,-35.4995,6.08,6.08,2.89,"Kawahata, 2002","Kawagata, 1999",,3,,,15.0,21.0,d18O correlation,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,2,V19-248,4.8,-24.6,,,,"Kolla et al., 1979",,,6,only quartz accumulation rate,,15.0,30.0,CLIMAP 1976,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,3,RC11-147,112.7,-19.0,,,,"Kolla and Biscaye, 1977 ",,,6,only quartz accumulation rate,,11.0,24.0,CLIMAP 1976,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,4,162KK,40.5,-4.1,,,2.6,"Sirocko et al., 1991",,,1,,,15.0,27.0,d18O correlation (Bard et al. 1987),,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,5,169SK,53.6,-3.6,,,4.1,"Sirocko et al., 1991",,,1,,,15.0,27.0,d18O correlation (Bard et al. 1987),,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,6,A180-74,-24.2,0.0,,,,"Kolla et al., 1979",,,6,only quartz accumulation rate,,15.0,30.0,CLIMAP 1976,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,7,A180-73,-23.0,0.2,,,,"Kolla et al., 1979",,,6,only quartz accumulation rate,,15.0,30.0,CLIMAP 1976,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,8,V24-109,158.8,0.4,,,,"Leinen, 1989",,,6,only quartz accumulation rate,,17.0,19.0,SPECMAP d18O,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,9,V28-203,-179.4,1.0,,,,"Leinen, 1989",,,6,only quartz accumulation rate,,17.0,19.0,SPECMAP d18O,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,10,V28-238,160.5,1.0,,,,"Leinen, 1989",,,6,only quartz accumulation rate,,17.0,19.0,SPECMAP d18O,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,11,143KK,44.8,1.2,28.41,28.41,94.7,"Sirocko et al., 1991",,,1,,,15.0,27.0,d18O correlation (Bard et al. 1987),,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,12,O3187,160.573,1.219833333,0.76,0.76,1.05,"Kawahata, 1999",,,3,,,16.0,24.0,d18O correlation,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,13,18KL,67.3,1.9,2.7,2.7,2.7,"Sirocko et al., 1991",,,1,,,15.0,27.0,d18O correlation (Bard et al. 1987),,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,14,C4402,135.0216667,2.996666667,10.82,10.82,9.17,"Kawahata, 1999","Kawahata and Eguchi, 1996; Kawahata et al. 1998",,3,river input,1,16.0,23.0,d18O correlation,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,15,V27-248,-11.8,3.0,,,,"Kolla et al., 1979",,,6,only quartz accumulation rate,,15.0,30.0,CLIMAP 1976,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,16,V28-239,159.2,3.2,,,,"Leinen, 1989",,,6,only quartz accumulation rate,,17.0,19.0,SPECMAP d18O,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,17,C2188,141.4906667,3.8015,0.97,0.97,1.24,"Kawahata, 1999","Kawahata and Eguchi, 1996; Kawahata et al. 1998",,3,river input,1,15.5,24.0,d18O correlation,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,18,11KL,60.2,5.4,11.05,11.05,6.5,"Sirocko et al., 1991",,,1,,,15.0,27.0,radiocarbon,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,19,OSIRIS 76123,78.7,6.4,13.14,13.14,14.6,"Sirocko et al., 1991",,,1,,,15.0,27.0,d18O correlation (Bard et al. 1987),,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,20,SO 28 5KL,61.1,6.7,11.56,11.56,3.4,"Sirocko et al., 1991",,,1,,,15.0,27.0,radiocarbon,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,21,77191,76.7,7.5,,,141.6,"Sirocko et al., 1991",,,1,,,15.0,27.0,radiocarbon,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,22,181SK,71.1,7.5,,,20.3,"Sirocko et al., 1991",,,1,,,15.0,27.0,d18O correlation (Bard et al. 1987),,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,23,114KK,51.2,8.0,15.62,15.62,14.2,"Sirocko et al., 1991",,,1,,,15.0,27.0,d18O correlation (Bard et al. 1987),,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,24,76125,75.3,8.6,,,20.5,"Sirocko et al., 1991",,,1,,,15.0,27.0,d18O correlation (Bard et al. 1987),,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,25,182SK,73.7,8.8,18.48,18.48,8.4,"Sirocko et al., 1991",,,1,,,15.0,27.0,d18O correlation (Bard et al. 1987),,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,26,V27-175,-22.1,8.8,,,,"Kolla et al., 1979",,,6,only quartz accumulation rate,,15.0,30.0,CLIMAP 1976,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,27,77194,75.2,10.5,,,116.0,"Sirocko et al., 1991",,,1,,,15.0,27.0,d18O correlation (Bard et al. 1987),,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,28,87KL,57.7,10.5,14.82,14.82,11.4,"Sirocko et al., 1991",,,1,,,15.0,27.0,d18O correlation (Bard et al. 1987),,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,29,V28-243,138.5,11.1,,,,"Leinen, 1989",,,6,only quartz accumulation rate,,17.0,19.0,SPECMAP d18O,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,30,IOE 105KK,53.5,11.3,9.45,9.45,10.5,"Sirocko et al., 1991",,,1,,,15.0,27.0,d18O correlation (Bard et al. 1987),,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,31,76127,73.9,12.1,10.74,10.74,17.9,"Sirocko et al., 1991",,,1,,,15.0,27.0,d18O correlation (Bard et al. 1987),,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,32,82KL,58.7,12.7,42.78,42.78,18.6,"Sirocko et al., 1991",,,1,,,15.0,27.0,d18O correlation (Bard et al. 1987),,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,33,76136,46.8,12.9,102.6,102.6,34.2,"Sirocko et al., 1991",,,1,,,15.0,27.0,d18O correlation (Bard et al. 1987),,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,34,76128,73.3,13.1,,,63.1,"Sirocko et al., 1991",,,1,,,15.0,27.0,d18O correlation (Bard et al. 1987),,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,35,V22-195,-19.4,13.4,,,,"Kolla et al., 1979",,,6,only quartz accumulation rate,,15.0,30.0,CLIMAP 1976,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,36,79KL,58.3,13.6,,,,"Sirocko et al., 1991",,,1,,,15.0,27.0,d18O correlation (Bard et al. 1987),,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,37,V22-196,-19.0,13.8,,,,"Kolla et al., 1979",,,6,only quartz accumulation rate,,15.0,30.0,CLIMAP 1976,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,38,74KL,57.4,14.3,63.44,63.44,24.4,"Sirocko et al., 1991",,,1,,,15.0,27.0,radiocarbon,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,39,76135,50.5,14.4,59.2,59.2,74.0,"Sirocko et al., 1991",,,1,,,15.0,27.0,d18O correlation (Bard et al. 1987),,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,40,SO 42 15KL,64.8,14.9,13.43,13.43,7.9,"Sirocko et al., 1991",,,1,,,15.0,27.0,d18O correlation (Bard et al. 1987),,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,41,26KL,68.8,15.5,,,,"Sirocko et al., 1991",,,1,,,15.0,27.0,d18O correlation (Bard et al. 1987),,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,42,71KL,60.3,16.2,,,16.9,"Sirocko et al., 1991",,,1,,,15.0,27.0,d18O correlation (Bard et al. 1987),,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,43,77200,67.9,16.5,17.38,17.38,15.8,"Sirocko et al., 1991",,,1,,,15.0,27.0,d18O correlation (Bard et al. 1987),,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,44,36KL,69.0,17.1,8.25,8.25,5.5,"Sirocko et al., 1991",,,1,,,15.0,27.0,d18O correlation (Bard et al. 1987),,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,45,70KL,61.7,17.5,,,,"Sirocko et al., 1991",,,1,,,15.0,27.0,d18O correlation (Bard et al. 1987),,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,46,43GB,69.0,17.9,,,8.7,"Sirocko et al., 1991",,,1,,,15.0,27.0,d18O correlation (Bard et al. 1987),,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,47,64KL,64.7,19.1,,,,"Sirocko et al., 1991",,,1,,,15.0,27.0,d18O correlation (Bard et al. 1987),,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,48,77202,60.7,19.2,105.11,105.11,45.7,"Sirocko et al., 1991",,,1,,,15.0,27.0,d18O correlation (Bard et al. 1987),,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,49,V28-255,142.4,20.1,,,,"Leinen, 1989",,,6,only quartz accumulation rate,,17.0,19.0,C. davisiana maximum (CLIMAP 1976),,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,50,77203,59.6,20.7,328.86,328.86,121.8,"Sirocko et al., 1991",,,1,,,15.0,27.0,d18O correlation (Bard et al. 1987),,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,51,ODP 658C,-18.58333333,20.75,83,83.0,113.0,"deMenocal et al., 2000",,,2,U/Th suggests sediment focussing,1,17.0,19.0,radiocarbon,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,52,57KL,63.1,20.9,76.23,76.23,23.1,"Sirocko et al., 1991",,,1,,,15.0,27.0,d18O correlation (Bard et al. 1987),,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,53,51KL,65.6,21.0,,,20.0,"Sirocko et al., 1991",,,1,,,15.0,27.0,d18O correlation (Bard et al. 1987),,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,54,232SK,64.6,21.8,,,33.6,"Sirocko et al., 1991",,,1,,,15.0,27.0,d18O correlation (Bard et al. 1987),,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,55,ORGON 4 KS8,59.2,23.5,146.41,146.41,133.1,"Sirocko et al., 1991",,,1,,,15.0,27.0,d18O correlation (Bard et al. 1987),,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,56,Meteor 5 422-6,59.0,24.4,,,118.6,"Sirocko et al., 1991",,,1,,,15.0,27.0,d18O correlation (Bard et al. 1987),,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,57,A180-39,-19.3,25.8,,,,"Kolla et al., 1979",,,6,only quartz accumulation rate,,15.0,30.0,CLIMAP 1976,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,58,R5-54,-19.0,25.9,,,,"Kolla et al., 1979",,,6,only quartz accumulation rate,,15.0,30.0,CLIMAP 1976,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,59,V28-294,140.0,28.4,2.11,2.11,0.6,"Rea and Leinen, 1988","Leinen, 1989",,1,,,17.0,19.0,C. davisiana maximum (CLIMAP 1976),,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,60,H3571,179.703,34.90416667,5.08,5.08,1.615,"Kawahata et al., 2000",,,1,,,15.0,23.0,d18O correlation,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,61,V21-146,163.0,37.7,3.160666667,3.160666667,1.7,"Hovan et al., 1991",,,1,,,17.9,23.0,SPECMAP d18O,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,62,V21-148,160.6,42.1,,,,"Leinen, 1989",,,6,only quartz accumulation rate,,17.0,19.0,C. davisiana maximum (CLIMAP 1976),,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,63,V21-173,163.6,44.4,,,,"Leinen, 1989",,,6,only quartz accumulation rate,,21.6,21.6,C. davisiana maximum (CLIMAP 1976),,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,64,V21-172,164.4,47.0,,,,"Leinen, 1989",,,6,only quartz accumulation rate,,18.0,18.0,C. davisiana maximum (CLIMAP 1976),,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,65,V21-171,-164.9,49.9,2.52,2.52,2.1,"Rea and Leinen, 1988","Leinen, 1989",,1,ice rafting,1,17.0,19.0,C. davisiana maximum (CLIMAP 1976),,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,66,V21-151,163.6,52.3,,,,"Leinen, 1989",,,6,only quartz accumulation rate,,17.0,19.0,C. davisiana maximum (CLIMAP 1976),,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,67,RC14-105,157.6,39.7,7.355,7.355,6.6,"Rea and Leinen, 1988","Leinen, 1989",,1,,,18.2,22.25,C. davisiana maximum (CLIMAP 1976),,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,68,NGC99,162.0,-29.99666667,0.41,0.41,0.56,"Kawahata, 2002","Kawagata, 1999",,3,,,17.9,17.9,d18O correlation,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,69,NGC100,162.0,-25.27,0.63,0.63,0.29,"Kawahata, 2002","Kawagata, 1999",,3,,,18.0,24.0,d18O correlation,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,70,V20-129,156.6,37.7,13.285,13.285,10.0,"Rea and Leinen, 1988","Leinen, 1989",,1,,,17.9,23.8,C. davisiana maximum (CLIMAP 1976),,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,71,V20-122,161.7,46.6,7.81,7.81,4.9,"Rea and Leinen, 1988","Leinen, 1989",,1,,,17.9,23.94,C. davisiana maximum (CLIMAP 1976)1,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,72,RC10-167,150.4,33.4,,,4.2,"Rea and Leinen, 1988","Leinen, 1989",,1,,,,,C. davisiana maximum (CLIMAP 1976),,False,False
+DIRTMAP_v2,table2_marine_sediment.txt,73,V20-126,155.9,42.2,13.4,13.4,5.6,"Rea and Leinen, 1988",,,1,,,18.58,18.58,C. davisiana maximum (CLIMAP 1976),,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,74,V22-177,-14.6,-7.7,2.2,2.2,2.2,"Ruddiman, 1997",,,1,,,15.0,25.0,radiocarbon,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,75,RC24-16,-10.2,-5.0,2.42,2.42,2.2,"Ruddiman, 1997",,,1,,,15.0,25.0,radiocarbon,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,76,RC24-07,-11.9,-1.3,14.06,14.06,3.8,"Ruddiman, 1997",,,1,,,15.0,25.0,radiocarbon,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,77,V22-182,-17.3,-0.5,4.64,4.64,2.9,"Ruddiman, 1997",,,1,,,15.0,25.0,radiocarbon,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,78,V29-144,6.0,-0.2,6.12,6.12,10.2,"Ruddiman, 1997",,,1,,,15.0,25.0,radiocarbon,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,79,V30-40,-23.2,-0.2,5,5.0,2.5,"Ruddiman, 1997",,,1,,,15.0,25.0,radiocarbon,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,80,V30-41K,-23.1,-0.2,3.1,3.1,3.1,"Ruddiman, 1997",,,1,,,15.0,25.0,radiocarbon,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,81,RC24-01,-13.4,0.6,8.8,8.8,2.2,"Ruddiman, 1997",,,1,,,15.0,25.0,radiocarbon,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,82,V25-59,-33.5,1.4,14.57,14.57,4.7,"Ruddiman, 1997",,,1,,,15.0,25.0,radiocarbon,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,83,RC13-189,-30.0,1.9,15.51,15.51,4.7,"Ruddiman, 1997",,,1,,,15.0,25.0,radiocarbon,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,84,V30-49,-21.1,18.4,12,12.0,6.0,"Ruddiman, 1997",,,1,,,15.0,25.0,radiocarbon,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,85,V30-51K,-19.9,19.9,4.96,4.96,6.2,"Ruddiman, 1997",,,1,,,15.0,25.0,radiocarbon,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,86,RC27-61,59.9,16.6,16.6,16.6,4.3,"Clemens and Prell, 1990",,,1,,,16.9,20.5,SPECMAP d18O,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,87,ODP 658,-18.6,20.7,132,132.0,87.0,"Tiedemann et al., 1989",,,2,,1,17.4,22.7,Specmap d18O,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,88,SO36-61,161.4,-30.6,0.6,0.6,0.2,"Hesse, 1994",,,1,,,16.0,19.9,SPECMAP d18O,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,89,E26.1,168.3,-40.3,4.6,4.6,0.8,"Hesse, 1994",,,1,,,18.1,19.2,SPECMAP d18O,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,90,E39-75TC,161.2,-36.5,2.5,2.5,3.34,"Hesse, 1994",,,1,,,,,SPECMAP d18O,,False,False
+DIRTMAP_v2,table2_marine_sediment.txt,91,ODP 722B,59.8,16.6,20.34,20.34,12.9,"Clemens and Prell, 1991",,,1,,,15.8,22.5,SPECMAP d18O,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,92,DSDP 578,150.0,32.0,14.32,14.32,17.9,"Janacek, 1984",,,1,,,15.0,24.0,stratigraphic correlation,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,93,E39.75PC,161.2,-36.5,2,2.0,2.1,"Hesse, 1994",,,1,,,19.6,19.6,SPECMAP d18O,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,94,ODP 659,-21.0,18.1,18.72,18.72,13.5,"Tiedemann et al., 1989",,,2,,,18.0,23.0,SPECMAP d18O,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,95,E26.4,160.07,-45.08,3.3,3.3,3.2,"Hesse, 1994",,,1,,,16.2,20.2,SPECMAP d18O,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,96,E26.3,160.51,-41.95,4.3,4.3,4.3,"Hesse, 1994",,,1,,,,,SPECMAP d18O,,False,False
+DIRTMAP_v2,table2_marine_sediment.txt,97,NGC98,162.51,-34.99833333,0.78,0.78,,"Kawahata, 2002","Kawagata, 1999",,3,,,19.0,19.0,d18O correlation,,False,True
+DIRTMAP_v2,table2_marine_sediment.txt,98,ODP 663,-11.9,-1.2,6,6.0,2.0,"Ruddiman and Janacek, 1989",,,2,,,,,SPECMAP d18O,,False,False
+DIRTMAP_v2,table2_marine_sediment.txt,99,ODP 663,-11.9,-1.2,6.8,6.8,2.0,"Ruddiman and Janacek, 1989",,,2,,,,,SPECMAP d18O,,False,False
+DIRTMAP_v2,table2_marine_sediment.txt,100,503B,-95.6,4.0,0.36,0.36,0.3,"Rea et al., 1986",,,1,,,,,stratigraphic correlation,,False,False
+DIRTMAP_v2,table2_marine_sediment.txt,101,V19-188,60.7,6.9,,,,"Kolla and Biscaye, 1977",,,6,only quartz accumulation rate,,,,CLIMAP 1976,,False,False
+DIRTMAP_v2,table2_marine_sediment.txt,102,KK75-02,179.3,38.6,1.92,1.92,2.4,"Janacek and Rea, 1985",,,1,,,,,stratigraphic correlation,,False,False

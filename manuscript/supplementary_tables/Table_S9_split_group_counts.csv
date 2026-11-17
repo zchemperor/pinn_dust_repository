@@ -1,0 +1,7 @@
+split,n_test,n_coordinate_groups,n_nearby_groups,n_cross_split_components,n_cross_split_pairs_3km,nearest_cross_split_km
+outer_north_america,64,61,60,0,0,540.5184916811737
+outer_east_asia,106,97,96,0,0,859.3170567836167
+outer_tropical_atlantic_africa,42,41,41,0,0,202.57768377572378
+stress_leave_south,36,33,33,0,0,88.39641731880425
+stress_leave_tropics,70,69,69,0,0,88.39641731880425
+stress_leave_north_excluding_p2dev,175,163,161,0,0,859.3170567836167

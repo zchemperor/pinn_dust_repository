@@ -1,0 +1,119 @@
+﻿record_id,raw_data_row_1based,core,source_table,archive,candidate_LGM_g_m2_yr,input_g_m2_yr,input_over_source,reference,age_begin_ka,age_end_ka
+277,556,"Huascarán, Peru",table1_ice_core.txt,ice core,40.0,39.99994704,1.0,"Thompson et al., 1995",,
+4,10,Renland,table1_ice_core.txt,ice core,0.12,0.12000015648,1.0,"Hansson, 1994",,
+103,207,RC12-412,table4_non_carb_marine_sed.txt,marine noncarbonate,7.0,7.000014384,1.0,"Moore, 1980; Leinen, 1986",,
+143,287,RC12-416,table4_non_carb_marine_sed.txt,marine noncarbonate,5.5,5.500004544,1.0,"Moore, 1980; Cwienk, 1986 ",,
+176,354,v30-088,table4_non_carb_marine_sed.txt,marine noncarbonate,4.1,4.09999536,1.0,"Curry and Lohmann, 1990",,
+214,430,V23-100,table4_non_carb_marine_sed.txt,marine noncarbonate,5.4,5.4000038880000005,1.0,"Francois and Bacon, 1991",,
+219,440,V30-049,table4_non_carb_marine_sed.txt,marine noncarbonate,8.0,7.999989407999999,1.0,"Francois and Bacon, 1991",,
+230,462,V22-197,table4_non_carb_marine_sed.txt,marine noncarbonate,16.6,16.600014288,1.0,"Francois and Bacon, 1991",,
+242,486,EN66-10GGC,table4_non_carb_marine_sed.txt,marine noncarbonate,2.9,2.9000001024,1.0,"Curry and Lohmann, 1986",,
+243,488,EN66-16GGC,table4_non_carb_marine_sed.txt,marine noncarbonate,5.7,5.700005856,1.0,"Curry and Lohmann, 1986",,
+245,492,EN66-17GGC,table4_non_carb_marine_sed.txt,marine noncarbonate,3.6,3.5999920800000003,1.0,"Curry and Lohmann, 1986",,
+247,496,EN66-21GGC,table4_non_carb_marine_sed.txt,marine noncarbonate,3.6,3.5999920800000003,1.0,"Curry and Lohmann, 1986",,
+248,498,EN66-47GGC,table4_non_carb_marine_sed.txt,marine noncarbonate,5.0,5.000001264,1.0,"Curry and Lohmann, 1986",,
+249,500,EN66-44GGC,table4_non_carb_marine_sed.txt,marine noncarbonate,3.3,3.299990112,1.0,"Curry and Lohmann, 1986",,
+250,502,EN66-43GGC,table4_non_carb_marine_sed.txt,marine noncarbonate,1.2,1.2000015648,1.0,"Curry and Lohmann, 1986",,
+263,527,RC14-035,table4_non_carb_marine_sed.txt,marine noncarbonate,2.0,2.0000005056,1.0,"CLIMAP, 1976; Cwienk, 1986; Leinen, 1986",,
+273,547,ODP709A,table4_non_carb_marine_sed.txt,marine noncarbonate,1.5,1.5000003792,1.0,"Peterson and Backman, 1990",,
+281,564,V19-240,table4_non_carb_marine_sed.txt,marine noncarbonate,2.4,2.399999976,1.0,"Francois and Bacon, 1991",,
+51,104,Y70-5-64,table4_non_carb_marine_sed.txt,marine noncarbonate,2.2,2.199998664,1.0,"Keigwin et al., 1992",,
+71,143,RC12-413,table4_non_carb_marine_sed.txt,marine noncarbonate,14.0,13.999997232,1.0,"Moore, 1980; Cwienk, 1986; Leinen, 1986",,
+124,249,KK75-02,table2_marine_sediment.txt,marine sediment,1.92,1.9199999808000001,1.0,"Janacek and Rea, 1985",,
+205,411,DSDP 578,table2_marine_sediment.txt,marine sediment,14.32,14.319993023999999,1.0,"Janacek, 1984",15.0,24.0
+213,427,ORGON 4 KS8,table2_marine_sediment.txt,marine sediment,146.41,146.40997968,1.0,"Sirocko et al., 1991",15.0,27.0
+215,431,57KL,table2_marine_sediment.txt,marine sediment,76.23,76.23008064,1.0,"Sirocko et al., 1991",15.0,27.0
+216,433,77203,table2_marine_sediment.txt,marine sediment,328.86,328.8605616,1.0,"Sirocko et al., 1991",15.0,27.0
+217,436,V30-51K,table2_marine_sediment.txt,marine sediment,4.96,4.960013616,1.0,"Ruddiman, 1997",15.0,25.0
+218,437,77202,table2_marine_sediment.txt,marine sediment,105.11,105.11011872,1.0,"Sirocko et al., 1991",15.0,27.0
+220,442,V30-49,table2_marine_sediment.txt,marine sediment,12.0,12.000015648,1.0,"Ruddiman, 1997",15.0,25.0
+222,445,36KL,table2_marine_sediment.txt,marine sediment,8.25,8.250006816,1.0,"Sirocko et al., 1991",15.0,27.0
+223,447,ODP 722B,table2_marine_sediment.txt,marine sediment,20.34,20.339994672,1.0,"Clemens and Prell, 1991",15.8,22.5
+224,448,RC27-61,table2_marine_sediment.txt,marine sediment,16.6,16.600014288,1.0,"Clemens and Prell, 1990",16.9,20.5
+225,451,77200,table2_marine_sediment.txt,marine sediment,17.38,17.379994176,1.0,"Sirocko et al., 1991",15.0,27.0
+227,455,SO 42 15KL,table2_marine_sediment.txt,marine sediment,13.43,13.430015568,1.0,"Sirocko et al., 1991",15.0,27.0
+228,457,76135,table2_marine_sediment.txt,marine sediment,59.2,59.20000991999999,1.0,"Sirocko et al., 1991",15.0,27.0
+229,459,74KL,table2_marine_sediment.txt,marine sediment,63.44,63.44002512,1.0,"Sirocko et al., 1991",15.0,27.0
+231,463,76136,table2_marine_sediment.txt,marine sediment,102.6,102.59985312,1.0,"Sirocko et al., 1991",15.0,27.0
+232,465,82KL,table2_marine_sediment.txt,marine sediment,42.78,42.779845439999995,1.0,"Sirocko et al., 1991",15.0,27.0
+234,469,76127,table2_marine_sediment.txt,marine sediment,10.74,10.739994767999999,1.0,"Sirocko et al., 1991",15.0,27.0
+236,473,IOE 105KK,table2_marine_sediment.txt,marine sediment,9.45,9.450014688,1.0,"Sirocko et al., 1991",15.0,27.0
+237,475,87KL,table2_marine_sediment.txt,marine sediment,14.82,14.819996304,1.0,"Sirocko et al., 1991",15.0,27.0
+239,478,182SK,table2_marine_sediment.txt,marine sediment,18.48,18.480001392000002,1.0,"Sirocko et al., 1991",15.0,27.0
+240,481,114KK,table2_marine_sediment.txt,marine sediment,15.62,15.620001552,1.0,"Sirocko et al., 1991",15.0,27.0
+241,483,SO 28 5KL,table2_marine_sediment.txt,marine sediment,11.56,11.55999384,1.0,"Sirocko et al., 1991",15.0,27.0
+244,489,OSIRIS 76123,table2_marine_sediment.txt,marine sediment,13.14,13.140010512,1.0,"Sirocko et al., 1991",15.0,27.0
+246,493,11KL,table2_marine_sediment.txt,marine sediment,11.05,11.049993648,1.0,"Sirocko et al., 1991",15.0,27.0
+253,508,503B,table2_marine_sediment.txt,marine sediment,0.36,0.35999920799999996,1.0,"Rea et al., 1986",,
+255,511,18KL,table2_marine_sediment.txt,marine sediment,2.7,2.6999987904,1.0,"Sirocko et al., 1991",15.0,27.0
+256,514,RC13-189,table2_marine_sediment.txt,marine sediment,15.51,15.510003983999999,1.0,"Ruddiman, 1997",15.0,25.0
+258,518,V25-59,table2_marine_sediment.txt,marine sediment,14.57,14.570010432,1.0,"Ruddiman, 1997",15.0,25.0
+260,521,143KK,table2_marine_sediment.txt,marine sediment,28.41,28.409993999999998,1.0,"Sirocko et al., 1991",15.0,27.0
+261,524,RC24-01,table2_marine_sediment.txt,marine sediment,8.8,8.799994656,1.0,"Ruddiman, 1997",15.0,25.0
+265,531,V29-144,table2_marine_sediment.txt,marine sediment,6.12,6.120002304000001,1.0,"Ruddiman, 1997",15.0,25.0
+266,535,V30-40,table2_marine_sediment.txt,marine sediment,5.0,5.000001264,1.0,"Ruddiman, 1997",15.0,25.0
+267,536,V30-41K,table2_marine_sediment.txt,marine sediment,3.1,3.1000014144,1.0,"Ruddiman, 1997",15.0,25.0
+268,538,V22-182,table2_marine_sediment.txt,marine sediment,4.64,4.639986287999999,1.0,"Ruddiman, 1997",15.0,25.0
+271,544,RC24-07,table2_marine_sediment.txt,marine sediment,14.06,14.060010239999999,1.0,"Ruddiman, 1997",15.0,25.0
+275,552,RC24-16,table2_marine_sediment.txt,marine sediment,2.42,2.4200001072,1.0,"Ruddiman, 1997",15.0,25.0
+276,554,V22-177,table2_marine_sediment.txt,marine sediment,2.2,2.199998664,1.0,"Ruddiman, 1997",15.0,25.0
+278,557,NGC100,table2_marine_sediment.txt,marine sediment,0.63,0.6300009792,1.0,"Kawahata, 2002",18.0,24.0
+282,565,SO36-61,table2_marine_sediment.txt,marine sediment,0.6,0.6000007824,1.0,"Hesse, 1994",16.0,19.9
+297,595,E26.1,table2_marine_sediment.txt,marine sediment,4.6,4.59999864,1.0,"Hesse, 1994",18.1,19.2
+298,597,E26.3,table2_marine_sediment.txt,marine sediment,4.3,4.299996672,1.0,"Hesse, 1994",,
+303,607,E26.4,table2_marine_sediment.txt,marine sediment,3.3,3.299990112,1.0,"Hesse, 1994",16.2,20.2
+109,219,Noshiro,table5_terrestrial_sediment.txt,terrestrial (loess),15.0,6.000007824,0.4,"Ono and Naruse, 1997",,
+111,223,Zhaitang,table5_terrestrial_sediment.txt,terrestrial (loess),407.0,89.99995968,0.2211,"Sun et al., 2000",,
+122,245,Tajik,table5_terrestrial_sediment.txt,terrestrial (loess),297.0,74.2499352,0.25,"Forster and Heller, 1994",,
+129,259,Yulin (Yuling),table5_terrestrial_sediment.txt,terrestrial (loess),,222.99988608,,"Sun et al., 2000",,
+134,269,Mujiayuan (Wupu),table5_terrestrial_sediment.txt,terrestrial (loess),205.0,32.99990112,0.161,"Sun et al., 2000",,
+135,271,Katamachi,table5_terrestrial_sediment.txt,terrestrial (loess),20.0,7.999989407999999,0.4,"Ono and Naruse, 1997",,
+136,273,Jiyuan,table5_terrestrial_sediment.txt,terrestrial (loess),532.0,69.00013728,0.1297,"Sun et al., 2000",,
+137,275,Xueyuan,table5_terrestrial_sediment.txt,terrestrial (loess),514.0,67.00012416,0.1304,"Sun et al., 2000",,
+138,277,Shenjiazhuang,table5_terrestrial_sediment.txt,terrestrial (loess),442.0,102.0000384,0.2308,"Sun et al., 2000",,
+139,279,Xining (Dadunling),table5_terrestrial_sediment.txt,terrestrial (loess),733.0,168.9998472,0.2306,"Sun et al., 2000",,
+140,281,Yanchang,table5_terrestrial_sediment.txt,terrestrial (loess),212.0,37.999933920000004,0.1792,"Sun et al., 2000",,
+141,283,Huanxian,table5_terrestrial_sediment.txt,terrestrial (loess),339.0,43.99997328,0.1298,"Sun et al., 2000",,
+146,293,Baicaoyuan,table5_terrestrial_sediment.txt,terrestrial (loess),335.0,76.99987440000001,0.2299,"Sun et al., 2000",,
+147,294,Majiayuan,table5_terrestrial_sediment.txt,terrestrial (loess),420.0,55.000045439999994,0.131,"Sun et al., 2000",,
+148,297,Xinzhuangyuan,table5_terrestrial_sediment.txt,terrestrial (loess),486.0,112.000104,0.2305,"Sun et al., 2000",,
+149,299,Yichuan,table5_terrestrial_sediment.txt,terrestrial (loess),200.0,43.99997328,0.22,"Sun et al., 2000",,
+150,301,Lijiayuan,table5_terrestrial_sediment.txt,terrestrial (loess),340.0,77.99988096,0.2294,"Sun et al., 2000",,
+151,303,Xiadongcun (Jixian),table5_terrestrial_sediment.txt,terrestrial (loess),203.0,50.00001264,0.2463,"Sun et al., 2000",,
+152,305,Jiuzhoutai (Lanzhou),table5_terrestrial_sediment.txt,terrestrial (loess),636.0,147.00001824,0.2311,"Sun et al., 2000",,
+153,307,Beiyuantou,table5_terrestrial_sediment.txt,terrestrial (loess),468.0,83.99992032,0.1795,"Sun et al., 2000",,
+154,309,Gaolanshan,table5_terrestrial_sediment.txt,terrestrial (loess),1277.0,294.00003648,0.2302,"Sun et al., 2000",,
+155,310,Izumo,table5_terrestrial_sediment.txt,terrestrial (loess),23.0,9.19999728,0.4,"Ono and Naruse, 1997",,
+163,326,Xifeng,table5_terrestrial_sediment.txt,terrestrial (loess),372.0,81.99990720000001,0.2204,"Sun et al., 2000",,
+164,329,Yuanpu (Yuanbo),table5_terrestrial_sediment.txt,terrestrial (loess),1055.0,243.00001727999998,0.2303,"Sun et al., 2000",,
+165,331,Beiyuan,table5_terrestrial_sediment.txt,terrestrial (loess),863.0,198.00003744,0.2294,"Sun et al., 2000",,
+166,332,Huanglong,table5_terrestrial_sediment.txt,terrestrial (loess),97.0,21.000011616,0.2165,"Sun et al., 2000",,
+167,335,Baxie (Dongxiang),table5_terrestrial_sediment.txt,terrestrial (loess),944.0,216.99984672000002,0.2299,"Sun et al., 2000",,
+169,339,Ningxian,table5_terrestrial_sediment.txt,terrestrial (loess),200.0,43.99997328,0.22,"Sun et al., 2000",,
+171,343,Changwu,table5_terrestrial_sediment.txt,terrestrial (loess),304.0,67.00012416,0.2204,"Sun et al., 2000",,
+172,344,Baishui,table5_terrestrial_sediment.txt,terrestrial (loess),69.0,15.000003792,0.2174,"Sun et al., 2000",,
+173,347,Xunyi,table5_terrestrial_sediment.txt,terrestrial (loess),130.0,29.000001024,0.2231,"Sun et al., 2000",,
+175,351,Dadiwan,table5_terrestrial_sediment.txt,terrestrial (loess),348.0,79.99989408,0.2299,"Sun et al., 2000",,
+177,355,Pucheng,table5_terrestrial_sediment.txt,terrestrial (loess),60.0,12.999990672000001,0.2167,"Sun et al., 2000",,
+178,356,Mangshan_2,table5_terrestrial_sediment.txt,terrestrial (loess),5238.0,1204.7414256,0.23,"Sun et al., 2000",,
+179,359,Yinwan,table5_terrestrial_sediment.txt,terrestrial (loess),285.0,79.99989408,0.2807,"Sun et al., 2000",,
+18,37,Kurtak,table5_terrestrial_sediment.txt,terrestrial (loess),405.0,267.99986592,0.6617,"Chlachula et al., 1997",,
+181,363,Chunhua,table5_terrestrial_sediment.txt,terrestrial (loess),168.0,36.99992736,0.2202,"Sun et al., 2000",,
+182,365,Banshan,table5_terrestrial_sediment.txt,terrestrial (loess),366.0,94.99999248,0.2596,"Sun et al., 2000",,
+185,371,Qishan,table5_terrestrial_sediment.txt,terrestrial (loess),208.0,58.00006512,0.2788,"Sun et al., 2000",,
+186,373,Weinan (Yangguo),table5_terrestrial_sediment.txt,terrestrial (loess),289.0,80.99990064,0.2803,"Sun et al., 2000",,
+187,375,Baoji (Lingyuan),table5_terrestrial_sediment.txt,terrestrial (loess),179.0,50.00001264,0.2793,"Sun et al., 2000",,
+189,377,Jiezicun (Jiezhichun),table5_terrestrial_sediment.txt,terrestrial (loess),210.0,52.00002576,0.2476,"Sun et al., 2000",,
+190,381,Shangjiapo,table5_terrestrial_sediment.txt,terrestrial (loess),341.0,94.99999248,0.2786,"Sun et al., 2000",,
+192,385,Zhangjiayuan,table5_terrestrial_sediment.txt,terrestrial (loess),370.0,104.00005152,0.2811,"Sun et al., 2000",,
+193,387,Liujiapo_2 (Xian),table5_terrestrial_sediment.txt,terrestrial (loess),107.0,30.000007584,0.2804,"Sun et al., 2000",,
+198,397,Chenjiawo (Lantian_1),table5_terrestrial_sediment.txt,terrestrial (loess),345.0,97.0000056,0.2812,"Sun et al., 2000",,
+199,399,Baimapo,table5_terrestrial_sediment.txt,terrestrial (loess),153.0,42.99996672,0.281,"Sun et al., 2000",,
+200,401,Sanrimatsubara,table5_terrestrial_sediment.txt,terrestrial (loess),29.0,11.600013023999999,0.4,"Ono and Naruse, 1997",,
+206,413,Ganzi,table5_terrestrial_sediment.txt,terrestrial (loess),514.0,118.21994928000001,0.23,"Sun et al., 2000",,
+294,589,"Onaero, North Island, New Zealand",table5_terrestrial_sediment.txt,terrestrial (loess),5.0,5.000001264,1.0,"Alloway et al., 1992",,
+295,591,"Waitui, North Island, New Zealand",table5_terrestrial_sediment.txt,terrestrial (loess),4.0,3.9999947039999997,1.0,"Alloway et al., 1992",,
+296,593,"North Island, New Zealand",table5_terrestrial_sediment.txt,terrestrial (loess),28.0,7.000014384,0.25,"Pillans and Wright, 1990",,
+49,99,"Achenheim, Alsace, France",table5_terrestrial_sediment.txt,terrestrial (loess),424.0,82.99991376,0.1958,"Rousseau et al., 1998",,
+81,163,Chifeng,table5_terrestrial_sediment.txt,terrestrial (loess),237.0,54.509976,0.23,"Sun et al., 2000",,
+86,171,Byobuyama,table5_terrestrial_sediment.txt,terrestrial (loess),15.0,6.000007824,0.4,"Ono and Naruse, 1997",,

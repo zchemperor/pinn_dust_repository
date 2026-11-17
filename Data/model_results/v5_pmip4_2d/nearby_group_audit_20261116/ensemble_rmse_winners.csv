@@ -1,0 +1,25 @@
+split,scheme,model,rmse
+outer_east_asia,coordinate_cluster,PDE-MAP,0.6371651237281581
+outer_east_asia,nearby_cluster,PDE-MAP,0.6371651237281581
+outer_east_asia,nearby_equal,PDE-MAP,0.6448777369944693
+outer_east_asia,record_iid,PDE-MAP,0.6371651237281581
+outer_north_america,coordinate_cluster,Train-mean constant,1.0036318033400948
+outer_north_america,nearby_cluster,Train-mean constant,1.0036318033400948
+outer_north_america,nearby_equal,Train-mean constant,1.0260091966827347
+outer_north_america,record_iid,Train-mean constant,1.0036318033400948
+outer_tropical_atlantic_africa,coordinate_cluster,Diffusion-PINN,0.5415162274856614
+outer_tropical_atlantic_africa,nearby_cluster,Diffusion-PINN,0.5415162274856614
+outer_tropical_atlantic_africa,nearby_equal,Diffusion-PINN,0.539385698136741
+outer_tropical_atlantic_africa,record_iid,Diffusion-PINN,0.5415162274856614
+stress_leave_north_excluding_p2dev,coordinate_cluster,PDE-MAP,0.9846130079009734
+stress_leave_north_excluding_p2dev,nearby_cluster,PDE-MAP,0.9846130079009734
+stress_leave_north_excluding_p2dev,nearby_equal,PDE-MAP,1.0021250054784234
+stress_leave_north_excluding_p2dev,record_iid,PDE-MAP,0.9846130079009734
+stress_leave_south,coordinate_cluster,Diffusion-PINN,0.9941302675897791
+stress_leave_south,nearby_cluster,Diffusion-PINN,0.9941302675897791
+stress_leave_south,nearby_equal,Diffusion-PINN,0.9707548494903738
+stress_leave_south,record_iid,Diffusion-PINN,0.9941302675897791
+stress_leave_tropics,coordinate_cluster,Diffusion-PINN,0.7159255653003223
+stress_leave_tropics,nearby_cluster,Diffusion-PINN,0.7159255653003223
+stress_leave_tropics,nearby_equal,Diffusion-PINN,0.7210719181961898
+stress_leave_tropics,record_iid,Diffusion-PINN,0.7159255653003223

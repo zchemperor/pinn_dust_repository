@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "retained_input_rows": 317,
+  "raw_record_mapping_and_values_unchanged": true,
+  "source_and_scientific_input_hashes_unchanged": true,
+  "manuscript_and_bibliography_hashes_unchanged": true,
+  "existing_80_candidate_record_ids_reproduced": true,
+  "SI_join_rows": 20,
+  "SI_candidate_input_records": 18,
+  "ODP_5_and_11_kept_separate": true,
+  "Chile_source_repetitions_not_counted_as_extra_input": true,
+  "all_formal_lineage_unresolved": true,
+  "protected_files_checked": 15,
+  "csv_reader": "pandas float_precision=round_trip for exact numeric round-trip checks"
+}

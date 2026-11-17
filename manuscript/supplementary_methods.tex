@@ -1,0 +1,124 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=25mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,amsmath,amssymb,booktabs,tabularx}
+\usepackage[authoryear,sort]{natbib}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{pdfauthor={},pdftitle={Supplementary methods: LGM record provenance and dependence checks}}
+\setlength{\parskip}{5pt}
+\setlength{\parindent}{0pt}
+\renewcommand{\thesection}{S\arabic{section}}
+\begin{document}
+\begin{center}
+{\Large\bfseries Supplementary methods}\par\medskip
+{\large Wind-informed mathematical regularization for sparse Last Glacial Maximum dust-deposition reconstruction}
+\end{center}
+This document describes provenance, record-dependence, and coefficient/residual checks underlying the inherited 317-row reconstruction benchmark. It accompanies the main manuscript and the CSV archive \texttt{Supplementary\_Tables.zip}. Source-candidate metadata describe historical source rows; they are not verified identities or attributes of the current inputs. All original training rows and fitted predictions are retained.
+
+\section{Input rows, units, and target definition}
+The empirical target is the 317-row LGM table distributed with \citet{MolinaCatricheo2024}. That publication reports 317 LGM records and a 19--26 ka averaging window, attributing the compilation to \citet{Lambert2015}. The latter describes DIRTMAP 3 with additional sites but reports 311 LGM points. We use the published 317-row benchmark; the record-level changes from 311 to 317 remain undocumented. The 19--26 ka window is therefore an upstream compilation definition, not an independently verified age range for every row. 
+
+Our raw comma-separated-values (CSV) file \texttt{MAR\_LGM.csv} is byte-identical to the immediate upstream repository at commit \texttt{b11d6f1141c7}. This establishes the source of the input file, but not its complete record lineage or correspondence to a specific DIRTMAP release.
+
+The raw table has 1,148 rows and four columns (Longitude, Latitude, MAR, and LogMAR), where MAR denotes mass accumulation rate. Following the upstream notebook, we retained $-180^{\circ}<\lambda\leq180^{\circ}$ and $-90^{\circ}<\phi<90^{\circ}$, where $\lambda$ and $\phi$ denote longitude and latitude, leaving 317 rows. The raw table contains these 317 rows, their 317 longitude-plus-360-degree copies, and 514 polar rows (257 per pole), with multiplicities accounted for. The notebook describes the excluded rows as additions for kriging. This explains the filtering from 1,148 to 317; it does not explain the earlier change from 311 to 317.
+
+The upstream notebook states MAR units of $\mathrm{kg\,m^{-2}\,s^{-1}}$. We multiplied by $1000\times365\times24\times60\times60$ to obtain $\mathrm{g\,m^{-2}\,yr^{-1}}$ using a 365-day year, then recomputed $\log_{10}$. No retained MAR values were missing or non-positive. The retained coordinates, deposition, and log-deposition match the upstream processed table exactly. We did not use the inherited standardized column, which differs from the locally processed column; instead, each formal split recomputes normalization from its training records.
+
+The numerical target is $\ell=\log_{10}(F/F_0)$, where $F$ is deposition in $\mathrm{g\,m^{-2}\,yr^{-1}}$ and $F_0=1\,\mathrm{g\,m^{-2}\,yr^{-1}}$. All reported root-mean-square error (RMSE), mean absolute error (MAE), $R^2$, and bias are evaluated at held-out records on this unstandardized log scale, after reversing the training-only z-score transformation. Bias is predicted minus observed log-deposition.
+
+To prevent held-out targets from entering normalization, every spatial split used a z-score transformation fitted to its own training records only. Test records were transformed with the corresponding training mean and standard deviation. This is important because the held-out blocks differ in both geographic coverage and deposition distribution. 
+
+Coordinates were represented by longitude $\lambda$ and latitude $\phi$, with retained longitudes in the $(-180^{\circ},180^{\circ}]$ convention before split assignment. The prepared wind field has 60 latitude and 120 longitude nodes. The neural differential residual is evaluated at separate points using wind values from this grid and derivatives of the interpolant (the main-manuscript subsection on loss and residual sampling); neither grid spacing nor collocation density describes observational resolution.
+
+The attributed compilation uses the PM10 fraction of loess deposits and total dust from ice cores and marine sediments \citep{Lambert2015}. Expressing these values in a common unit does not establish a common particle-size target or archive response. The inherited four-column CSV lacks the identifiers needed to verify the original unit, particle-size fraction, and temporal averaging of each row.
+
+Supplementary Table S6 maps each retained input to its raw data row and unit-conversion check. A raw data-row index excludes the header. Stable retained \texttt{record\_id} values run from 0 to 316, including repeated rows. The PANGAEA product cited upstream (DOI \url{https://doi.org/10.1594/PANGAEA.847983}) is an interpolated gridded product, not a recovered row-level identity catalogue.
+
+\section{Source-candidate rules and coverage}
+We searched public tables for possible record correspondences without assigning identities from coordinates alone. The independently updated Paleo$\pm$Dust LGM table \citep{Cosentino2024} has exact-coordinate candidates for 48 inherited rows. Only one also agrees within 0.1\% with either its total or sub-10-micron flux. 
+
+A separate search compared all 317 input rows, without rounding or merging, with the historical DIRTMAP version 2 tables associated with \citet{Kohfeld2001} and Supporting Information Table~S1 of \citet{Lambert2015}. We retained every candidate within exploratory rectangular windows of $0.05^{\circ}$ per coordinate for DIRTMAP and $0.1^{\circ}$ for Lambert's Table~S1, separately flagging exact-coordinate matches. Flux agreement means an absolute relative difference, $|F_{\mathrm{input}}/F_{\mathrm{source}}-1|$, no greater than 0.1\%; missing source LGM values cannot meet this criterion. Coverage counts distinct input row identifiers, retaining repeated input rows and counting each input only once across overlapping source tables. These are numerical candidate links, not verified record lineages.
+
+Historical DIRTMAP tables supplied exact-coordinate and flux-agreement candidates for 80 input rows, including 73 in the combined table and seven added by specialized tables. Lambert's Table~S1 supplied a further 13. Thus 93 of 317 rows (29.3\%) have exact-coordinate and flux-agreement candidates. Allowing the stated coordinate windows increases this to 98 rows (30.9\%), while 170 rows (53.6\%) have a coordinate candidate regardless of flux agreement. The Lambert Table~S1 and historical DIRTMAP candidate input sets do not overlap under these rules. Twenty-two inputs have more than one candidate core name in the historical tables. Widening the flux tolerance to 0.2\% leaves these flux-agreement coverage counts unchanged. The separate Paleo$\pm$Dust comparison above is not included in these coverage percentages.
+
+Tables S1 and S2 provide all 317 input statuses and all 396 input/source-row candidate pairs. These pairs include repeated appearances across source tables; they are not 396 independent records. Table S14 inventories the source tables. Table S15 retains the separate Paleo$\pm$Dust comparison. Historical DIRTMAP tables are accessible through NOAA/NCEI at \url{https://www.ncei.noaa.gov/pub/data/paleo/loess/dirtmap/}, with dataset DOI \url{https://doi.org/10.25921/nyzs-vr76}. Lambert's source is Supporting Information Table S1 of \citet{Lambert2015}; source-table row numbers in the CSVs preserve this distinction.
+
+\section{Single-candidate flux-ratio diagnostic}
+For a descriptive value comparison, 118 input rows had a single distinct core-identifier/LGM-value candidate at an exactly matching coordinate, counting repeated appearances across historical tables once. One loess candidate lacked an LGM value. Among the remaining 117 pairs, all 63 marine-sediment, noncarbonate-sediment, and ice-core candidates had input/source flux ratios within $4\times10^{-6}$ of one. The 54 loess ratios ranged from 0.130 to 1.000, with median 0.230; 52 were below 0.999 and two were within $4\times10^{-6}$ of one. The strict unrounded count below one is 53, because one near-unit ratio is 0.999998676; this small departure is not treated as substantive scaling. This archive-associated pattern suggests differential numerical processing and is consistent with the attributed particle-size treatment. It does not identify the transformation applied to each input or establish its particle-size threshold. The two loess candidates with ratios near one do not, by themselves, establish inconsistent processing: their original size fractions remain unverified.
+
+The S3 selection is deliberately different from the S2 flux-agreement coverage rule: it does not filter pairs by their flux ratio. Repeated source-table appearances are counted once at the core-identifier/LGM-value level. Table S3 contains all 118 selected pairs, including the one missing source LGM value. Its ratio column is recomputed from the unrounded input and source numeric flux columns, so values close to one retain their small numerical deviations. Archive labels in this diagnostic are source-candidate labels, not a recovered classification of the current benchmark.
+
+\section{Historical ages and ambiguous cases}
+Source entries also reveal why nearby values cannot be treated as documented modifications. Lambert's Table~S1 lists an ODP 1090 flux of 11 $\mathrm{g\,m^{-2}\,yr^{-1}}$, which matches one current input at the same coordinate; a separate nearby input has a flux of approximately 5. Their proximity does not show that 11 was changed to 5. Two Chile Coast locations each appear twice in Lambert's Table~S1 but only once in the current input. Their source LGM values are missing, so agreement with source Holocene values cannot verify the current LGM values or demonstrate forward filling.
+
+The historical marine table contains 102 entries, of which 94 have both age bounds, spanning 29 distinct interval combinations. None is 19--26 ka; examples include 15--27 and 15--25 ka. These are properties of the historical table, not the age distribution of the current 317 inputs. They qualify a uniform interpretation of the upstream averaging window but cannot establish current row ages because intervening versions may have changed temporal processing. Discrepancies between combined and specialized historical tables were retained.
+
+No candidate archive, age, or particle-size labels were transferred to the current rows, and neither the target table nor its repeated rows was replaced or removed.
+
+The available evidence does not support a complete audit of archive-specific harmonization, measurement error, or record independence, or verified archive-stratified error estimates. The PANGAEA product cited upstream (DOI 10.1594/PANGAEA.847983) contains interpolated gridded NetCDF fluxes rather than the missing row-level identity keys. Our mapping links the numerical record IDs used in the experiments to processed and raw CSV rows; it does not assign unverified site or archive identities.
+
+Tables S4 and S5 provide the historical marine age rows and interval counts. These intervals cannot be used as current input chronologies. No current record was removed, relabelled, or assigned an age on the basis of these candidates.
+
+\section{Record dependence and candidate-subset evaluation}
+
+The 317 retained rows occupy 301 exact coordinates and comprise 310 distinct coordinate--flux records. Eight coordinates contain multiple rows; across three groups, seven rows are exact repetitions beyond the first occurrence in the processed fields. An exploratory proximity check linked rows separated by at most 3 km, using great-circle distances with Earth radius 6371 km. It identified ten connected groups containing 28 rows, each with at least two distinct flux values. The largest group contains six rows at one coordinate with three distinct values. These groups describe spatial proximity, not duplicate measurements or independent archives. All rows were preserved because the CSV lacks the site, archive, age, and reference keys needed to distinguish independent measurements from duplicate export.
+
+Historical candidate links illustrate the ambiguity: fluxes of 6 and 6.8 $\mathrm{g\,m^{-2}\,yr^{-1}}$ at one coordinate match two Ocean Drilling Program (ODP) 663 entries, while fluxes of 2 and 2.5 at another match separately named E39.75PC and E39-75TC cores. Co-location alone therefore establishes neither duplication nor independence. These links do not resolve the three groups with exact repeated rows.
+
+Tables S7--S9 provide all row-to-group memberships, component descriptions and split-level geometry checks. Groups are connected components under great-circle edges no longer than 3 km, using Earth radius 6371 km; this is an exploratory proximity threshold, not an independence scale. All components, including singletons, are retained. No component or direct edge crosses training and test in any of the six splits. The ten nonsingleton components contain 28 inputs. Component diameter can exceed 3 km through chained edges.
+
+The main manuscript defines record-equal coordinate-cluster and coordinate-equal evaluation. The nearby-group variants likewise either preserve record weights while resampling groups, or give equal total weight to groups and resample groups. Losses, rather than targets or predictions, are averaged within groups. Each variant uses 20,000 paired resamples, with NumPy seed 20261117, sharing resampled groups across predictors and the five seed fits within a split. Intervals are nominal 95\% percentile intervals conditional on fixed fitted networks and training constants; seeds and training samples are not resampled, and multiplicity is not adjusted. Table S16 reports the nearby-group pairwise contrasts. Neither grouping nor evaluation reweighting repairs training-time repetition or proves measurement independence.
+
+Tables S10--S13 provide held-out memberships, coverage counts, metrics and Wind-PINN-minus-comparator differences for the exact-coordinate/flux-agreement rule (93 input rows globally) and coordinate-window/flux-agreement rule (98 globally). In the main manuscript's six-split order, exact-rule candidate counts are 2, 10, 40, 19, 57 and 17. Each rule also retains the complementary test rows. These overlapping post hoc subsets use original fitted predictions and training constants, with both mean per-seed metrics and metrics of five-seed mean predictions. Subset results are descriptive; no intervals or significance claims are attached. Selection partly uses the observed flux, and coverage is uneven. Consequently neither lower subset error nor a changed local ranking identifies improved data quality, archive-specific skill or a homogeneous target. Full-test weight stability and source-candidate selection stability are different questions.
+
+\section{Coefficient optimization and independent residual evaluation}
+\label{sec:coefficient-evaluation}
+\textbf{Independent evaluation on reconstructed point sets; not a recovery of the original training losses.} This evaluation uses saved final networks without optimizer updates: 30 primary Wind-PINN fits, 30 primary Diffusion-PINN fits, and nine zero-wind fits at each residual weight 0.3 and 3 (78 fits total). Relative-D is excluded from the scalar-coefficient derivation because its spatial coefficient and additional penalties require a different analysis.
+
+\subsection*{Fixed-field algebra and interpretation}
+For a fixed standardized log-deposition field $c$, let $A$ be the signed dimensionless advection contribution in the implemented operator and $q$ its dimensionless spherical diffusion contribution with $D_{\rm nd}=1$. Angle brackets denote an unweighted arithmetic mean over the specified evaluation points. For constant $D=D_{\rm nd}$,
+\[
+R=A+Dq,\qquad L_R=\langle A^2\rangle+2D\langle Aq\rangle+D^2\langle q^2\rangle,
+\]
+\[
+\frac{\partial L_R}{\partial D}=2(\langle Aq\rangle+D\langle q^2\rangle),\qquad
+\frac{\partial^2 L_R}{\partial D^2}=2\langle q^2\rangle.
+\]
+For zero wind, $A=0$ and $L_R$ increases strictly with positive $D$ if $\langle q^2\rangle>0$; if $q$ vanishes, it is flat in this direction. The other loss terms do not explicitly depend on this scalar coefficient when the field and boundary parameters are fixed. The parameterization $D=0.02+1.98\,\mathrm{sigmoid}(d)$ has the open range $(0.02,2)$: it approaches but does not attain either bound. Finite training, optimization paths, saturation and small curvature prevent any universal prediction that all fits must end near a bound.
+
+For nonzero wind and $\langle q^2\rangle>0$, the unconstrained conditional optimum is $-\langle Aq\rangle/\langle q^2\rangle$. It is an interior conditional optimum only if it lies in $(0.02,2)$; otherwise the constrained infimum is approached at a bound. The numerator is a product mean, not a covariance. At a nonzero interior conditional optimum, the signed cross term is negative and equals $-2D^2\langle q^2\rangle$. An actual final fit need not satisfy this stationary condition. Neither an interior coefficient nor this conditional formula establishes identifiability of the jointly fitted field and coefficient. The changed objective structure is a consequence of removing wind, not a second intervention that invalidates the matched comparison. Formal units of $D$ do not identify atmospheric diffusivity for the standardized log state.
+
+\subsection*{Point sets and objective definition}
+The first point set is reconstructed from the source sampling request with the current DeepXDE dependency: 2,618 interior points ($77\times34$), 218 boundary points, and each split's training anchors, retaining duplicate points. The second is an independent $120\times60$ cell-centre grid over the same network domain $[-2,2]\times[-0.89,0.89]$, without anchors or boundary points. These are unweighted point averages, not spherical area integrals. The historical collocation arrays were not archived. Numerical agreement with saved final losses therefore does not establish recovery of the original point arrays or environment.
+
+We report $D$, $\langle q^2\rangle$, $\langle A^2\rangle$, the signed $2D\langle Aq\rangle$, and $L_R$ separately. The weighted PDE fraction is $w_R L_R$ divided by $w_R L_R$ plus the weighted observation, seam-value, seam-derivative and northern/southern boundary losses. For the regular-grid evaluation only the PDE points change; non-PDE terms retain the same reconstructed observation/boundary evaluation. This denominator is an independent composite objective, not an original training objective. Loss fractions are not fractions of network gradients and cannot isolate causal contributions to prediction or exclude effects earlier in training. Different splits standardize $c$ separately; pooled ranges describe fitted values, not a shared physical quantity or independent statistical replicates.
+
+\subsection*{Observed coefficients and residual terms}
+All 48 zero-wind coefficients satisfy $(D-0.02)/1.98\leq10^{-4}$. The primary 30 range from 0.020000827 to 0.020001028; the nine weight-0.3 fits range from 0.020000796 to 0.020000960, and the nine weight-3 fits from 0.020000869 to 0.020001104. The 30 primary Wind-PINN values range from 0.060854 to 0.133157. Table S17 preserves raw parameter and coefficient precision, and Table S18 supplies both-point-set decompositions for all fits. This near-boundary pattern is consistent with the fixed-field optimization direction, not independent support for a physical coefficient. Prediction sensitivity to other coefficient bounds remains untested.
+
+\textbf{Descriptive residual summary for the primary fits.} The following entries are minimum / median / maximum across 30 individual fits. The PDE fraction is a percentage of the independent composite objective, not a prediction metric.
+\begin{center}\small
+\begin{tabular}{llrr}
+\toprule
+Model & Point set & $\langle q^2\rangle$ & PDE fraction (\%)\\
+\midrule
+Wind-PINN & Reconstructed & 111.1 / 220.4 / 665.5 & 19.05 / 25.08 / 39.77\\
+Wind-PINN & Regular grid & 70.52 / 165.3 / 388.6 & 24.07 / 29.95 / 52.10\\
+Diffusion-PINN & Reconstructed & 22.69 / 42.09 / 73.26 & 2.06 / 3.32 / 6.66\\
+Diffusion-PINN & Regular grid & 17.24 / 34.69 / 63.08 & 1.86 / 2.86 / 5.50\\
+\bottomrule
+\end{tabular}\end{center}
+Wind-PINN's signed cross term is negative in all 30 fits on each set: its minimum / median / maximum is $-10.3386/-4.54883/-2.84569$ on reconstructed points and $-4.67003/-2.92149/-1.85884$ on the regular grid. The cancellation fraction $-2D\langle Aq\rangle/(\langle A^2\rangle+D^2\langle q^2\rangle)$ has corresponding ranges 0.733--0.917 and 0.614--0.774. The conditional optima lie inside the interval on both sets for all 30 wind fits, without implying that actual final coefficients are stationary. Cancellation describes the implemented penalty, not validated transport physics.
+
+For the same primary fit, regular-grid/reconstructed $\langle q^2\rangle$ ratios range from 0.415 to 0.945 for Wind-PINN and 0.687 to 0.972 for Diffusion-PINN; $L_R$ ratios range from 0.808 to 1.666 and 0.687 to 0.972, respectively (Table S20). Resolution, point distribution and anchor/boundary composition all change, so differences cannot be attributed to one factor. Table S19 records point counts and array hashes; Table S21 provides split-level summaries. Each point set evaluates the same fitted networks, not independent replicated fits.
+
+\subsection*{Numerical consistency and historical logs}
+Restored predictions agree with their saved values to $3.78\times10^{-14}$ on the standardized scale. Maximum absolute discrepancies are $6.76\times10^{-14}$ for the residual decomposition, $6.58\times10^{-14}$ for an independent constant-coefficient Laplacian expression, and $3.91\times10^{-14}$ and $2.28\times10^{-13}$ for automatic-differentiation checks of the first and second coefficient derivatives. Reconstructed weighted PDE and composite values agree with logged final values to $4.89\times10^{-15}$ and $1.30\times10^{-14}$, respectively. These are consistency checks, not recovery of original training losses or proof of convergence. Tables S22 and S23 separately retain the already-weighted historical loss components (78 fits, 151 logged times each) and historical fraction summaries; they do not reconstruct earlier field curvature. Table S24 records the numerical checks. No fit was retrained or selected using these diagnostics.
+
+\section*{Guide to the machine-readable files}
+The accompanying archive contains 24 numbered CSV tables, a README describing identifiers, units, missingness, rules and metric signs, and a manifest listing row counts, columns and SHA-256 checksums. All tables are directly accessible with this submission. They do not require access to an author-identifying repository. Candidate source fields and unresolved current metadata remain separate. The archive excludes original publisher PDF/Word files and database packages; citations and source links identify those materials.
+
+\bibliographystyle{cas-model2-names}
+\bibliography{cas-refs}
+\end{document}

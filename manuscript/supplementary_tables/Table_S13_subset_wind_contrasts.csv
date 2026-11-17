@@ -1,0 +1,265 @@
+split,definition,selection,estimand,comparator,delta_rmse,delta_mae
+outer_north_america,exact_flux93,candidate,ensemble,Diffusion-PINN,1.122925437716933,1.1204142187576194
+outer_north_america,exact_flux93,candidate,ensemble,Relative-D,-0.010905143159669173,-0.01416068202015719
+outer_north_america,exact_flux93,candidate,ensemble,No-PDE MLP,1.051288844415452,0.9903586495298913
+outer_north_america,exact_flux93,candidate,ensemble,PDE-MAP,0.010752475890494662,0.013720518522591707
+outer_north_america,exact_flux93,candidate,ensemble,GP/RBF,0.8922684101731301,0.7280033769852885
+outer_north_america,exact_flux93,candidate,ensemble,Train-mean constant,-0.048059924330717596,-0.06870101621773617
+outer_north_america,exact_flux93,candidate,mean_seed_metric,Diffusion-PINN,1.0901404633734888,1.0030085334284284
+outer_north_america,exact_flux93,candidate,mean_seed_metric,Relative-D,-0.010848911947757056,-0.014160682020157411
+outer_north_america,exact_flux93,candidate,mean_seed_metric,No-PDE MLP,1.0148886742723573,0.9685636961661473
+outer_north_america,exact_flux93,candidate,mean_seed_metric,PDE-MAP,0.010929581438470448,0.013720518522591485
+outer_north_america,exact_flux93,candidate,mean_seed_metric,GP/RBF,0.8924455157211059,0.7280033769852883
+outer_north_america,exact_flux93,candidate,mean_seed_metric,Train-mean constant,-0.04788281878274181,-0.06870101621773639
+outer_north_america,exact_flux93,other,ensemble,Diffusion-PINN,-1.0115233107843573,-1.0504688820351116
+outer_north_america,exact_flux93,other,ensemble,Relative-D,0.002505959684908632,0.004286353964132794
+outer_north_america,exact_flux93,other,ensemble,No-PDE MLP,-1.1928751466834893,-1.2405475831352684
+outer_north_america,exact_flux93,other,ensemble,PDE-MAP,-0.004776211484969872,-0.003964756859016649
+outer_north_america,exact_flux93,other,ensemble,GP/RBF,-0.7946179666283666,-0.7714061310968499
+outer_north_america,exact_flux93,other,ensemble,Train-mean constant,0.02655469060436333,0.030640337392666583
+outer_north_america,exact_flux93,other,mean_seed_metric,Diffusion-PINN,-1.0136164262003562,-1.0504356442702987
+outer_north_america,exact_flux93,other,mean_seed_metric,Relative-D,0.0027672131997246163,0.004205742820944436
+outer_north_america,exact_flux93,other,mean_seed_metric,No-PDE MLP,-1.2044858592767378,-1.2406638774730685
+outer_north_america,exact_flux93,other,mean_seed_metric,PDE-MAP,-0.004359665190170614,-0.003931519094204083
+outer_north_america,exact_flux93,other,mean_seed_metric,GP/RBF,-0.7942014203335673,-0.7713728933320373
+outer_north_america,exact_flux93,other,mean_seed_metric,Train-mean constant,0.026971236899162587,0.03067357515747915
+outer_north_america,tolerance_flux98,candidate,ensemble,Diffusion-PINN,1.122925437716933,1.1204142187576194
+outer_north_america,tolerance_flux98,candidate,ensemble,Relative-D,-0.010905143159669173,-0.01416068202015719
+outer_north_america,tolerance_flux98,candidate,ensemble,No-PDE MLP,1.051288844415452,0.9903586495298913
+outer_north_america,tolerance_flux98,candidate,ensemble,PDE-MAP,0.010752475890494662,0.013720518522591707
+outer_north_america,tolerance_flux98,candidate,ensemble,GP/RBF,0.8922684101731301,0.7280033769852885
+outer_north_america,tolerance_flux98,candidate,ensemble,Train-mean constant,-0.048059924330717596,-0.06870101621773617
+outer_north_america,tolerance_flux98,candidate,mean_seed_metric,Diffusion-PINN,1.0901404633734888,1.0030085334284284
+outer_north_america,tolerance_flux98,candidate,mean_seed_metric,Relative-D,-0.010848911947757056,-0.014160682020157411
+outer_north_america,tolerance_flux98,candidate,mean_seed_metric,No-PDE MLP,1.0148886742723573,0.9685636961661473
+outer_north_america,tolerance_flux98,candidate,mean_seed_metric,PDE-MAP,0.010929581438470448,0.013720518522591485
+outer_north_america,tolerance_flux98,candidate,mean_seed_metric,GP/RBF,0.8924455157211059,0.7280033769852883
+outer_north_america,tolerance_flux98,candidate,mean_seed_metric,Train-mean constant,-0.04788281878274181,-0.06870101621773639
+outer_north_america,tolerance_flux98,other,ensemble,Diffusion-PINN,-1.0115233107843573,-1.0504688820351116
+outer_north_america,tolerance_flux98,other,ensemble,Relative-D,0.002505959684908632,0.004286353964132794
+outer_north_america,tolerance_flux98,other,ensemble,No-PDE MLP,-1.1928751466834893,-1.2405475831352684
+outer_north_america,tolerance_flux98,other,ensemble,PDE-MAP,-0.004776211484969872,-0.003964756859016649
+outer_north_america,tolerance_flux98,other,ensemble,GP/RBF,-0.7946179666283666,-0.7714061310968499
+outer_north_america,tolerance_flux98,other,ensemble,Train-mean constant,0.02655469060436333,0.030640337392666583
+outer_north_america,tolerance_flux98,other,mean_seed_metric,Diffusion-PINN,-1.0136164262003562,-1.0504356442702987
+outer_north_america,tolerance_flux98,other,mean_seed_metric,Relative-D,0.0027672131997246163,0.004205742820944436
+outer_north_america,tolerance_flux98,other,mean_seed_metric,No-PDE MLP,-1.2044858592767378,-1.2406638774730685
+outer_north_america,tolerance_flux98,other,mean_seed_metric,PDE-MAP,-0.004359665190170614,-0.003931519094204083
+outer_north_america,tolerance_flux98,other,mean_seed_metric,GP/RBF,-0.7942014203335673,-0.7713728933320373
+outer_north_america,tolerance_flux98,other,mean_seed_metric,Train-mean constant,0.026971236899162587,0.03067357515747915
+outer_east_asia,exact_flux93,candidate,ensemble,Diffusion-PINN,-0.033506045576930765,-0.013003679930581657
+outer_east_asia,exact_flux93,candidate,ensemble,Relative-D,0.01680528487295746,0.01287408285503791
+outer_east_asia,exact_flux93,candidate,ensemble,No-PDE MLP,-0.09945898931697644,-0.06958988286572249
+outer_east_asia,exact_flux93,candidate,ensemble,PDE-MAP,0.025209242993232517,0.022376054934301004
+outer_east_asia,exact_flux93,candidate,ensemble,GP/RBF,-0.09654304629342925,-0.08527529063177136
+outer_east_asia,exact_flux93,candidate,ensemble,Train-mean constant,-0.19022562592394332,-0.16597212706831938
+outer_east_asia,exact_flux93,candidate,mean_seed_metric,Diffusion-PINN,-0.08519999898251535,-0.07466662787459477
+outer_east_asia,exact_flux93,candidate,mean_seed_metric,Relative-D,0.009774863359501673,0.006733874235516857
+outer_east_asia,exact_flux93,candidate,mean_seed_metric,No-PDE MLP,-0.17317881180929723,-0.14589792552547554
+outer_east_asia,exact_flux93,candidate,mean_seed_metric,PDE-MAP,0.03360037394106191,0.028376500939185756
+outer_east_asia,exact_flux93,candidate,mean_seed_metric,GP/RBF,-0.08815191534559985,-0.07927484462688661
+outer_east_asia,exact_flux93,candidate,mean_seed_metric,Train-mean constant,-0.18183449497611393,-0.15997168106343462
+outer_east_asia,exact_flux93,other,ensemble,Diffusion-PINN,0.007223103106324347,0.04550830725722965
+outer_east_asia,exact_flux93,other,ensemble,Relative-D,0.0016976759611950776,0.0022293236119849125
+outer_east_asia,exact_flux93,other,ensemble,No-PDE MLP,-0.7301110895254073,-0.727922528083131
+outer_east_asia,exact_flux93,other,ensemble,PDE-MAP,0.027130156799681338,0.02376946535202018
+outer_east_asia,exact_flux93,other,ensemble,GP/RBF,-0.03209942613514849,-0.04810946727702026
+outer_east_asia,exact_flux93,other,ensemble,Train-mean constant,0.0200624127349609,0.023101545828609016
+outer_east_asia,exact_flux93,other,mean_seed_metric,Diffusion-PINN,-0.0500406096789513,-0.004677128738655001
+outer_east_asia,exact_flux93,other,mean_seed_metric,Relative-D,0.0012977248114273143,0.0021555961793801037
+outer_east_asia,exact_flux93,other,mean_seed_metric,No-PDE MLP,-0.7454723857727681,-0.7298457744557875
+outer_east_asia,exact_flux93,other,mean_seed_metric,PDE-MAP,0.02807179949047245,0.02502247786289591
+outer_east_asia,exact_flux93,other,mean_seed_metric,GP/RBF,-0.03115778344435738,-0.04685645476614453
+outer_east_asia,exact_flux93,other,mean_seed_metric,Train-mean constant,0.02100405542575201,0.024354558339484744
+outer_east_asia,tolerance_flux98,candidate,ensemble,Diffusion-PINN,-0.027447614423053435,0.0004158352993303138
+outer_east_asia,tolerance_flux98,candidate,ensemble,Relative-D,0.016887621717352475,0.013651170563973802
+outer_east_asia,tolerance_flux98,candidate,ensemble,No-PDE MLP,-0.11708691865574833,-0.0918886259650186
+outer_east_asia,tolerance_flux98,candidate,ensemble,PDE-MAP,0.026894201018149988,0.026740504638133572
+outer_east_asia,tolerance_flux98,candidate,ensemble,GP/RBF,-0.08831270674035185,-0.06987347283086195
+outer_east_asia,tolerance_flux98,candidate,ensemble,Train-mean constant,-0.20762195690062996,-0.18765006976084955
+outer_east_asia,tolerance_flux98,candidate,mean_seed_metric,Diffusion-PINN,-0.08300657493107255,-0.07191454550188481
+outer_east_asia,tolerance_flux98,candidate,mean_seed_metric,Relative-D,0.008161034764452402,0.0041125295383161176
+outer_east_asia,tolerance_flux98,candidate,mean_seed_metric,No-PDE MLP,-0.19820987061117412,-0.17177292665466676
+outer_east_asia,tolerance_flux98,candidate,mean_seed_metric,PDE-MAP,0.03562860730994316,0.0321954555516652
+outer_east_asia,tolerance_flux98,candidate,mean_seed_metric,GP/RBF,-0.07957830044855868,-0.06441852191733033
+outer_east_asia,tolerance_flux98,candidate,mean_seed_metric,Train-mean constant,-0.19888755060883678,-0.18219511884731793
+outer_east_asia,tolerance_flux98,other,ensemble,Diffusion-PINN,0.007034976455445818,0.044570384306269695
+outer_east_asia,tolerance_flux98,other,ensemble,Relative-D,0.0016526435081928303,0.0020272949378653538
+outer_east_asia,tolerance_flux98,other,ensemble,No-PDE MLP,-0.733288274163891,-0.7322703856739218
+outer_east_asia,tolerance_flux98,other,ensemble,PDE-MAP,0.027123587681081474,0.023278775495973347
+outer_east_asia,tolerance_flux98,other,ensemble,GP/RBF,-0.03244452434023015,-0.04950161646075946
+outer_east_asia,tolerance_flux98,other,ensemble,Train-mean constant,0.022583443652897772,0.027601872591922372
+outer_east_asia,tolerance_flux98,other,mean_seed_metric,Diffusion-PINN,-0.05011133060202755,-0.004259059338274862
+outer_east_asia,tolerance_flux98,other,mean_seed_metric,Relative-D,0.001367587345157406,0.0024109279016231167
+outer_east_asia,tolerance_flux98,other,mean_seed_metric,No-PDE MLP,-0.7477484135879184,-0.7329965411558846
+outer_east_asia,tolerance_flux98,other,mean_seed_metric,PDE-MAP,0.028012654787078484,0.024544977612226404
+outer_east_asia,tolerance_flux98,other,mean_seed_metric,GP/RBF,-0.03155545723423314,-0.0482354143445064
+outer_east_asia,tolerance_flux98,other,mean_seed_metric,Train-mean constant,0.023472510758894782,0.02886807470817543
+outer_tropical_atlantic_africa,exact_flux93,candidate,ensemble,Diffusion-PINN,0.15069099025472532,0.12598640944892736
+outer_tropical_atlantic_africa,exact_flux93,candidate,ensemble,Relative-D,-0.038111833063141476,-0.04599548565613276
+outer_tropical_atlantic_africa,exact_flux93,candidate,ensemble,No-PDE MLP,-0.7620012690022958,-0.6123672210348781
+outer_tropical_atlantic_africa,exact_flux93,candidate,ensemble,PDE-MAP,0.03331645853735643,0.031022935971888432
+outer_tropical_atlantic_africa,exact_flux93,candidate,ensemble,GP/RBF,0.09735458347916948,0.08663873259878507
+outer_tropical_atlantic_africa,exact_flux93,candidate,ensemble,Train-mean constant,-0.036189894347154694,-0.04219090814678905
+outer_tropical_atlantic_africa,exact_flux93,candidate,mean_seed_metric,Diffusion-PINN,-0.19232828911122757,-0.12734573165959895
+outer_tropical_atlantic_africa,exact_flux93,candidate,mean_seed_metric,Relative-D,-0.03557410665859062,-0.045904724892828486
+outer_tropical_atlantic_africa,exact_flux93,candidate,mean_seed_metric,No-PDE MLP,-0.9161487120644515,-0.7225282538085394
+outer_tropical_atlantic_africa,exact_flux93,candidate,mean_seed_metric,PDE-MAP,0.039056745516206526,0.03120313681247666
+outer_tropical_atlantic_africa,exact_flux93,candidate,mean_seed_metric,GP/RBF,0.10309487045801957,0.0868189334393733
+outer_tropical_atlantic_africa,exact_flux93,candidate,mean_seed_metric,Train-mean constant,-0.0304496073683046,-0.04201070730620082
+outer_tropical_atlantic_africa,exact_flux93,other,ensemble,Diffusion-PINN,0.2044136568178644,0.22820315034851713
+outer_tropical_atlantic_africa,exact_flux93,other,ensemble,Relative-D,0.03231839580097373,0.03660625259210071
+outer_tropical_atlantic_africa,exact_flux93,other,ensemble,No-PDE MLP,-0.011450125693790003,-0.08093812795962008
+outer_tropical_atlantic_africa,exact_flux93,other,ensemble,PDE-MAP,0.00413660489440737,0.02816799703638806
+outer_tropical_atlantic_africa,exact_flux93,other,ensemble,GP/RBF,0.042733185008909436,0.12114809574607577
+outer_tropical_atlantic_africa,exact_flux93,other,ensemble,Train-mean constant,0.06498828292992853,0.025391976710504638
+outer_tropical_atlantic_africa,exact_flux93,other,mean_seed_metric,Diffusion-PINN,0.17201698583808722,0.11498445483977948
+outer_tropical_atlantic_africa,exact_flux93,other,mean_seed_metric,Relative-D,0.030946878388759758,0.03660625259210071
+outer_tropical_atlantic_africa,exact_flux93,other,mean_seed_metric,No-PDE MLP,-0.019317116493263287,-0.08093812795962019
+outer_tropical_atlantic_africa,exact_flux93,other,mean_seed_metric,PDE-MAP,0.005103915693909666,0.02816799703638806
+outer_tropical_atlantic_africa,exact_flux93,other,mean_seed_metric,GP/RBF,0.04370049580841173,0.12114809574607577
+outer_tropical_atlantic_africa,exact_flux93,other,mean_seed_metric,Train-mean constant,0.06595559372943083,0.025391976710504638
+outer_tropical_atlantic_africa,tolerance_flux98,candidate,ensemble,Diffusion-PINN,0.15069099025472532,0.12598640944892736
+outer_tropical_atlantic_africa,tolerance_flux98,candidate,ensemble,Relative-D,-0.038111833063141476,-0.04599548565613276
+outer_tropical_atlantic_africa,tolerance_flux98,candidate,ensemble,No-PDE MLP,-0.7620012690022958,-0.6123672210348781
+outer_tropical_atlantic_africa,tolerance_flux98,candidate,ensemble,PDE-MAP,0.03331645853735643,0.031022935971888432
+outer_tropical_atlantic_africa,tolerance_flux98,candidate,ensemble,GP/RBF,0.09735458347916948,0.08663873259878507
+outer_tropical_atlantic_africa,tolerance_flux98,candidate,ensemble,Train-mean constant,-0.036189894347154694,-0.04219090814678905
+outer_tropical_atlantic_africa,tolerance_flux98,candidate,mean_seed_metric,Diffusion-PINN,-0.19232828911122757,-0.12734573165959895
+outer_tropical_atlantic_africa,tolerance_flux98,candidate,mean_seed_metric,Relative-D,-0.03557410665859062,-0.045904724892828486
+outer_tropical_atlantic_africa,tolerance_flux98,candidate,mean_seed_metric,No-PDE MLP,-0.9161487120644515,-0.7225282538085394
+outer_tropical_atlantic_africa,tolerance_flux98,candidate,mean_seed_metric,PDE-MAP,0.039056745516206526,0.03120313681247666
+outer_tropical_atlantic_africa,tolerance_flux98,candidate,mean_seed_metric,GP/RBF,0.10309487045801957,0.0868189334393733
+outer_tropical_atlantic_africa,tolerance_flux98,candidate,mean_seed_metric,Train-mean constant,-0.0304496073683046,-0.04201070730620082
+outer_tropical_atlantic_africa,tolerance_flux98,other,ensemble,Diffusion-PINN,0.2044136568178644,0.22820315034851713
+outer_tropical_atlantic_africa,tolerance_flux98,other,ensemble,Relative-D,0.03231839580097373,0.03660625259210071
+outer_tropical_atlantic_africa,tolerance_flux98,other,ensemble,No-PDE MLP,-0.011450125693790003,-0.08093812795962008
+outer_tropical_atlantic_africa,tolerance_flux98,other,ensemble,PDE-MAP,0.00413660489440737,0.02816799703638806
+outer_tropical_atlantic_africa,tolerance_flux98,other,ensemble,GP/RBF,0.042733185008909436,0.12114809574607577
+outer_tropical_atlantic_africa,tolerance_flux98,other,ensemble,Train-mean constant,0.06498828292992853,0.025391976710504638
+outer_tropical_atlantic_africa,tolerance_flux98,other,mean_seed_metric,Diffusion-PINN,0.17201698583808722,0.11498445483977948
+outer_tropical_atlantic_africa,tolerance_flux98,other,mean_seed_metric,Relative-D,0.030946878388759758,0.03660625259210071
+outer_tropical_atlantic_africa,tolerance_flux98,other,mean_seed_metric,No-PDE MLP,-0.019317116493263287,-0.08093812795962019
+outer_tropical_atlantic_africa,tolerance_flux98,other,mean_seed_metric,PDE-MAP,0.005103915693909666,0.02816799703638806
+outer_tropical_atlantic_africa,tolerance_flux98,other,mean_seed_metric,GP/RBF,0.04370049580841173,0.12114809574607577
+outer_tropical_atlantic_africa,tolerance_flux98,other,mean_seed_metric,Train-mean constant,0.06595559372943083,0.025391976710504638
+stress_leave_south,exact_flux93,candidate,ensemble,Diffusion-PINN,0.572211381006311,0.26566434058341504
+stress_leave_south,exact_flux93,candidate,ensemble,Relative-D,0.00811735247378631,0.031436013189632295
+stress_leave_south,exact_flux93,candidate,ensemble,No-PDE MLP,0.3848454622350379,0.07589912755680417
+stress_leave_south,exact_flux93,candidate,ensemble,PDE-MAP,-0.010545579795976145,-0.03193285993225614
+stress_leave_south,exact_flux93,candidate,ensemble,Train-mean constant,-0.13826663452027232,-0.30455416187362694
+stress_leave_south,exact_flux93,candidate,mean_seed_metric,Diffusion-PINN,0.53229415092875,0.2338790785024093
+stress_leave_south,exact_flux93,candidate,mean_seed_metric,Relative-D,0.008301555488483991,0.03143601318963252
+stress_leave_south,exact_flux93,candidate,mean_seed_metric,No-PDE MLP,0.18650220129805883,-0.026051981788344225
+stress_leave_south,exact_flux93,candidate,mean_seed_metric,PDE-MAP,-0.01019655554929666,-0.03193285993225614
+stress_leave_south,exact_flux93,candidate,mean_seed_metric,Train-mean constant,-0.13791761027359284,-0.30455416187362694
+stress_leave_south,exact_flux93,other,ensemble,Diffusion-PINN,0.6034257548771106,0.4251396044801221
+stress_leave_south,exact_flux93,other,ensemble,Relative-D,0.010980651689519227,0.006529133594828096
+stress_leave_south,exact_flux93,other,ensemble,No-PDE MLP,0.45774419743285377,0.27944679749925216
+stress_leave_south,exact_flux93,other,ensemble,PDE-MAP,0.025384524092435967,0.050921750027968726
+stress_leave_south,exact_flux93,other,ensemble,Train-mean constant,-0.08789023483531455,-0.16753751339093936
+stress_leave_south,exact_flux93,other,mean_seed_metric,Diffusion-PINN,0.5638575182956491,0.38265017191174966
+stress_leave_south,exact_flux93,other,mean_seed_metric,Relative-D,0.010876322762969348,0.005356101891859977
+stress_leave_south,exact_flux93,other,mean_seed_metric,No-PDE MLP,0.007531809567881131,-0.18490438810629284
+stress_leave_south,exact_flux93,other,mean_seed_metric,PDE-MAP,0.02560861880184584,0.05127981823929406
+stress_leave_south,exact_flux93,other,mean_seed_metric,Train-mean constant,-0.08766614012590468,-0.16717944517961403
+stress_leave_south,tolerance_flux98,candidate,ensemble,Diffusion-PINN,0.5266575489019949,0.221725665725245
+stress_leave_south,tolerance_flux98,candidate,ensemble,Relative-D,0.008471856990397209,0.028182748662206603
+stress_leave_south,tolerance_flux98,candidate,ensemble,No-PDE MLP,0.3507421177246286,0.04797420601760849
+stress_leave_south,tolerance_flux98,candidate,ensemble,PDE-MAP,-0.012151712766436118,-0.029384801486887602
+stress_leave_south,tolerance_flux98,candidate,ensemble,Train-mean constant,-0.17065794883386598,-0.3542605109495134
+stress_leave_south,tolerance_flux98,candidate,mean_seed_metric,Diffusion-PINN,0.4888911446316939,0.19296757146147803
+stress_leave_south,tolerance_flux98,candidate,mean_seed_metric,Relative-D,0.008648918101794134,0.028182748662206603
+stress_leave_south,tolerance_flux98,candidate,mean_seed_metric,No-PDE MLP,0.16466302666484145,-0.04426727386609719
+stress_leave_south,tolerance_flux98,candidate,mean_seed_metric,PDE-MAP,-0.01179946247011876,-0.029384801486887602
+stress_leave_south,tolerance_flux98,candidate,mean_seed_metric,Train-mean constant,-0.17030569853754862,-0.3542605109495134
+stress_leave_south,tolerance_flux98,other,ensemble,Diffusion-PINN,0.6749412521946683,0.5079171178011205
+stress_leave_south,tolerance_flux98,other,ensemble,Relative-D,0.010600956667899064,0.007762786653916498
+stress_leave_south,tolerance_flux98,other,ensemble,No-PDE MLP,0.515269459094059,0.3456813769797854
+stress_leave_south,tolerance_flux98,other,ensemble,PDE-MAP,0.030526306754858235,0.05840174953248267
+stress_leave_south,tolerance_flux98,other,ensemble,Train-mean constant,-0.032181814275354714,-0.07967973822034047
+stress_leave_south,tolerance_flux98,other,mean_seed_metric,Diffusion-PINN,0.6331810601538312,0.4597624275569653
+stress_leave_south,tolerance_flux98,other,mean_seed_metric,Relative-D,0.010482441414408461,0.0064333507238860665
+stress_leave_south,tolerance_flux98,other,mean_seed_metric,No-PDE MLP,0.027168525443881375,-0.18058330003983225
+stress_leave_south,tolerance_flux98,other,mean_seed_metric,PDE-MAP,0.030731920309707617,0.05880756017198485
+stress_leave_south,tolerance_flux98,other,mean_seed_metric,Train-mean constant,-0.03197620072050533,-0.07927392758083829
+stress_leave_tropics,exact_flux93,candidate,ensemble,Diffusion-PINN,0.06696175179345631,0.12463417393356546
+stress_leave_tropics,exact_flux93,candidate,ensemble,Relative-D,-0.013149687321265757,-0.012267364423929172
+stress_leave_tropics,exact_flux93,candidate,ensemble,No-PDE MLP,-0.24619760112061084,-0.1766026223675441
+stress_leave_tropics,exact_flux93,candidate,ensemble,PDE-MAP,-0.05011126292998991,-0.04577282502887481
+stress_leave_tropics,exact_flux93,candidate,ensemble,Train-mean constant,-0.08544055425442565,-0.07229512908587521
+stress_leave_tropics,exact_flux93,candidate,mean_seed_metric,Diffusion-PINN,-0.2663243522248353,-0.20696851708273345
+stress_leave_tropics,exact_flux93,candidate,mean_seed_metric,Relative-D,-0.014858223778573043,-0.01211329084565893
+stress_leave_tropics,exact_flux93,candidate,mean_seed_metric,No-PDE MLP,-0.6436284337644422,-0.48281568578243617
+stress_leave_tropics,exact_flux93,candidate,mean_seed_metric,PDE-MAP,-0.048718880914462415,-0.04517972677452864
+stress_leave_tropics,exact_flux93,candidate,mean_seed_metric,Train-mean constant,-0.08404817223889816,-0.07170203083152904
+stress_leave_tropics,exact_flux93,other,ensemble,Diffusion-PINN,0.9354466862645152,0.9704008323983374
+stress_leave_tropics,exact_flux93,other,ensemble,Relative-D,-0.0273514230381966,-0.022092137458898042
+stress_leave_tropics,exact_flux93,other,ensemble,No-PDE MLP,0.9434370349868104,0.9147779526884379
+stress_leave_tropics,exact_flux93,other,ensemble,PDE-MAP,-0.028953625858618715,-0.04461992017498617
+stress_leave_tropics,exact_flux93,other,ensemble,Train-mean constant,-0.14137606488906185,-0.1823734559182426
+stress_leave_tropics,exact_flux93,other,mean_seed_metric,Diffusion-PINN,0.8614920515164364,0.9537552379850862
+stress_leave_tropics,exact_flux93,other,mean_seed_metric,Relative-D,-0.027536746329038353,-0.022092137458898486
+stress_leave_tropics,exact_flux93,other,mean_seed_metric,No-PDE MLP,0.6875168883642069,0.7174567874890688
+stress_leave_tropics,exact_flux93,other,mean_seed_metric,PDE-MAP,-0.028403411568095338,-0.04461992017498617
+stress_leave_tropics,exact_flux93,other,mean_seed_metric,Train-mean constant,-0.14082585059853847,-0.1823734559182426
+stress_leave_tropics,tolerance_flux98,candidate,ensemble,Diffusion-PINN,0.10061872772444702,0.15254008145749098
+stress_leave_tropics,tolerance_flux98,candidate,ensemble,Relative-D,-0.011396530096124402,-0.011819347329814822
+stress_leave_tropics,tolerance_flux98,candidate,ensemble,No-PDE MLP,-0.20672972640042386,-0.13840820293124123
+stress_leave_tropics,tolerance_flux98,candidate,ensemble,PDE-MAP,-0.048948220997527936,-0.0466990984451956
+stress_leave_tropics,tolerance_flux98,candidate,ensemble,Train-mean constant,-0.11481536978609086,-0.09205330540642875
+stress_leave_tropics,tolerance_flux98,candidate,mean_seed_metric,Diffusion-PINN,-0.2269454856345583,-0.16855460560380187
+stress_leave_tropics,tolerance_flux98,candidate,mean_seed_metric,Relative-D,-0.013320582959549188,-0.011670496584706425
+stress_leave_tropics,tolerance_flux98,candidate,mean_seed_metric,No-PDE MLP,-0.5989040557987981,-0.43800775398022396
+stress_leave_tropics,tolerance_flux98,candidate,mean_seed_metric,PDE-MAP,-0.04756503055375605,-0.046126105216420465
+stress_leave_tropics,tolerance_flux98,candidate,mean_seed_metric,Train-mean constant,-0.11343217934231897,-0.09148031217765362
+stress_leave_tropics,tolerance_flux98,other,ensemble,Diffusion-PINN,0.9437020334479655,0.9744994481272431
+stress_leave_tropics,tolerance_flux98,other,ensemble,Relative-D,-0.033128701157350005,-0.026281460606415008
+stress_leave_tropics,tolerance_flux98,other,ensemble,No-PDE MLP,0.9523423898436726,0.9083498075402668
+stress_leave_tropics,tolerance_flux98,other,ensemble,PDE-MAP,-0.028405370641286565,-0.03944210733219444
+stress_leave_tropics,tolerance_flux98,other,ensemble,Train-mean constant,-0.07693048911298339,-0.09641202416843053
+stress_leave_tropics,tolerance_flux98,other,mean_seed_metric,Diffusion-PINN,0.8650405412223301,0.9587576682467847
+stress_leave_tropics,tolerance_flux98,other,mean_seed_metric,Relative-D,-0.032982277751530065,-0.026281460606415674
+stress_leave_tropics,tolerance_flux98,other,mean_seed_metric,No-PDE MLP,0.6828293584912679,0.6953546938720222
+stress_leave_tropics,tolerance_flux98,other,mean_seed_metric,PDE-MAP,-0.027900070968770008,-0.039442107332194665
+stress_leave_tropics,tolerance_flux98,other,mean_seed_metric,Train-mean constant,-0.07642518944046683,-0.09641202416843075
+stress_leave_north_excluding_p2dev,exact_flux93,candidate,ensemble,Diffusion-PINN,0.1383110595248035,-0.06562645572326975
+stress_leave_north_excluding_p2dev,exact_flux93,candidate,ensemble,Relative-D,-0.01099982517121445,-0.020576962337297222
+stress_leave_north_excluding_p2dev,exact_flux93,candidate,ensemble,No-PDE MLP,0.22743615812813733,-0.018145236684437793
+stress_leave_north_excluding_p2dev,exact_flux93,candidate,ensemble,PDE-MAP,-0.016539553951914643,-0.02265340667921345
+stress_leave_north_excluding_p2dev,exact_flux93,candidate,ensemble,Train-mean constant,-0.011092235942546713,-0.014639407259481318
+stress_leave_north_excluding_p2dev,exact_flux93,candidate,mean_seed_metric,Diffusion-PINN,0.1321437541308932,-0.06381058102979398
+stress_leave_north_excluding_p2dev,exact_flux93,candidate,mean_seed_metric,Relative-D,-0.010838357373368135,-0.015024434740024795
+stress_leave_north_excluding_p2dev,exact_flux93,candidate,mean_seed_metric,No-PDE MLP,0.21302500734906515,-0.011800115962777413
+stress_leave_north_excluding_p2dev,exact_flux93,candidate,mean_seed_metric,PDE-MAP,-0.015379507709761375,-0.016253055173249265
+stress_leave_north_excluding_p2dev,exact_flux93,candidate,mean_seed_metric,Train-mean constant,-0.009932189700393446,-0.008239055753517133
+stress_leave_north_excluding_p2dev,exact_flux93,other,ensemble,Diffusion-PINN,-0.5865351226226607,-0.5441599731570882
+stress_leave_north_excluding_p2dev,exact_flux93,other,ensemble,Relative-D,-8.75524296379826e-05,-0.0026194913512254114
+stress_leave_north_excluding_p2dev,exact_flux93,other,ensemble,No-PDE MLP,-0.6543218919450318,-0.5962958504057826
+stress_leave_north_excluding_p2dev,exact_flux93,other,ensemble,PDE-MAP,0.0425061699369399,0.03644867752104186
+stress_leave_north_excluding_p2dev,exact_flux93,other,ensemble,Train-mean constant,0.003388230449013818,0.004984132994883206
+stress_leave_north_excluding_p2dev,exact_flux93,other,mean_seed_metric,Diffusion-PINN,-0.5916872161394728,-0.5450342823259274
+stress_leave_north_excluding_p2dev,exact_flux93,other,mean_seed_metric,Relative-D,3.945707509322993e-05,-0.002251975049622823
+stress_leave_north_excluding_p2dev,exact_flux93,other,mean_seed_metric,No-PDE MLP,-0.6731683000462081,-0.599413210796477
+stress_leave_north_excluding_p2dev,exact_flux93,other,mean_seed_metric,PDE-MAP,0.04305186827703944,0.0368707762246846
+stress_leave_north_excluding_p2dev,exact_flux93,other,mean_seed_metric,Train-mean constant,0.003933928789113361,0.005406231698525943
+stress_leave_north_excluding_p2dev,tolerance_flux98,candidate,ensemble,Diffusion-PINN,0.1201864086308273,-0.095684421669049
+stress_leave_north_excluding_p2dev,tolerance_flux98,candidate,ensemble,Relative-D,-0.010664523991048003,-0.018958722431000052
+stress_leave_north_excluding_p2dev,tolerance_flux98,candidate,ensemble,No-PDE MLP,0.20081020760752277,-0.05565356773443553
+stress_leave_north_excluding_p2dev,tolerance_flux98,candidate,ensemble,PDE-MAP,-0.015989183710692467,-0.01880129862601365
+stress_leave_north_excluding_p2dev,tolerance_flux98,candidate,ensemble,Train-mean constant,-0.01345530600717737,-0.028188237468301125
+stress_leave_north_excluding_p2dev,tolerance_flux98,candidate,mean_seed_metric,Diffusion-PINN,0.11450673499468356,-0.09194919990454142
+stress_leave_north_excluding_p2dev,tolerance_flux98,candidate,mean_seed_metric,Relative-D,-0.010344953958795755,-0.01169443959068428
+stress_leave_north_excluding_p2dev,tolerance_flux98,candidate,mean_seed_metric,No-PDE MLP,0.1867568160915577,-0.047640724721086936
+stress_leave_north_excluding_p2dev,tolerance_flux98,candidate,mean_seed_metric,PDE-MAP,-0.014647675692445294,-0.010736293205267033
+stress_leave_north_excluding_p2dev,tolerance_flux98,candidate,mean_seed_metric,Train-mean constant,-0.012113797988930197,-0.020123232047554507
+stress_leave_north_excluding_p2dev,tolerance_flux98,other,ensemble,Diffusion-PINN,-0.587545468518408,-0.5437618211214812
+stress_leave_north_excluding_p2dev,tolerance_flux98,other,ensemble,Relative-D,-9.052990912961079e-05,-0.0026906432450293227
+stress_leave_north_excluding_p2dev,tolerance_flux98,other,ensemble,No-PDE MLP,-0.6553513773162534,-0.5956780201817151
+stress_leave_north_excluding_p2dev,tolerance_flux98,other,ensemble,PDE-MAP,0.04263212707446651,0.03638348095570865
+stress_leave_north_excluding_p2dev,tolerance_flux98,other,ensemble,Train-mean constant,0.003695896947988997,0.00666249276566766
+stress_leave_north_excluding_p2dev,tolerance_flux98,other,mean_seed_metric,Diffusion-PINN,-0.592734761639774,-0.5448733177498167
+stress_leave_north_excluding_p2dev,tolerance_flux98,other,mean_seed_metric,Relative-D,1.900969088408644e-05,-0.0025524046865511574
+stress_leave_north_excluding_p2dev,tolerance_flux98,other,mean_seed_metric,No-PDE MLP,-0.674277046841343,-0.5990468549823628
+stress_leave_north_excluding_p2dev,tolerance_flux98,other,mean_seed_metric,PDE-MAP,0.04315612343083708,0.03657664957483908
+stress_leave_north_excluding_p2dev,tolerance_flux98,other,mean_seed_metric,Train-mean constant,0.004219893304359568,0.006855661384798095

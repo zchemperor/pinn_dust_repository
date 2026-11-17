@@ -1,0 +1,7 @@
+﻿source_table,rows,numeric_LGM
+table1_ice_core.txt,22,10
+table2_marine_sediment.txt,102,64
+table4_non_carb_marine_sed.txt,231,95
+table5_terrestrial_sediment.txt,74,63
+table6_all_data.txt,314,152
+table7_flagged_data.txt,212,79

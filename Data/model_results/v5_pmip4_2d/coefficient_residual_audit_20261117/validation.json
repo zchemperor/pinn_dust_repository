@@ -1,0 +1,26 @@
+{
+  "evaluation_notice": "independent evaluation on reconstructed point sets; not a recovery of the original training losses",
+  "status": "PASS",
+  "runs": 78,
+  "evaluations": 156,
+  "logged_rows": 11778,
+  "zero_near_lower_count": 48,
+  "wind_near_lower_count": 0,
+  "zero_d_range": [
+    0.020000796043117375,
+    0.020001103785084698
+  ],
+  "cross_negative_at_actual_coefficient": 60,
+  "wind_conditional_optimum_locations": "{('reconstructed', 'interior'): 30, ('regular_grid', 'interior'): 30}",
+  "max_prediction_error": 3.774758283725532e-14,
+  "max_decomposition_error": 6.750155989720952e-14,
+  "max_independent_laplacian_error": 6.572520305780927e-14,
+  "max_tf_coefficient_gradient_error": 3.907985046680551e-14,
+  "max_tf_coefficient_curvature_error": 2.2737367544323206e-13,
+  "max_reconstructed_vs_logged_pde_difference": 4.884981308350689e-15,
+  "max_reconstructed_vs_logged_composite_difference": 1.2989609388114332e-14,
+  "original_data_csv_count": 1306,
+  "original_data_csv_unchanged": true,
+  "manuscript_and_submission_package_unchanged": true,
+  "no_training": true
+}

@@ -1,0 +1,7 @@
+﻿evaluation_notice,split,n_train,n_interior,n_boundary,n_reconstructed,n_regular_grid,n_seam_value,n_north,n_south,sha256
+independent evaluation on reconstructed point sets; not a recovery of the original training losses,outer_north_america,253,2618,218,3089,7200,140,76,76,2f1a13678b2aeb678a60b8161567f52b95909a96086bfaae790f6ae002f05589
+independent evaluation on reconstructed point sets; not a recovery of the original training losses,outer_east_asia,211,2618,218,3047,7200,140,76,76,ee1c9734cef76e2503d3658d14c3675f023364459d84cd943e08b3a2c58ef748
+independent evaluation on reconstructed point sets; not a recovery of the original training losses,outer_tropical_atlantic_africa,275,2618,218,3111,7200,140,76,76,055d473d71ae9f8e390af3fbad9cf07d6911d90b0e7225c478af0b574a094979
+independent evaluation on reconstructed point sets; not a recovery of the original training losses,stress_leave_south,281,2618,218,3117,7200,140,76,76,76cc4345e5510ae8391d87fc174d9e2e873cc43a2b35a40c813a412541535680
+independent evaluation on reconstructed point sets; not a recovery of the original training losses,stress_leave_tropics,247,2618,218,3083,7200,140,76,76,b184cec8fd95a363512a9a9284ca70609133fd6a3d7978dcee06bca004cde136
+independent evaluation on reconstructed point sets; not a recovery of the original training losses,stress_leave_north_excluding_p2dev,142,2618,218,2978,7200,140,76,76,6065c5e44f07b3ecde03db0288b12425899552a841e28d392ec817c3e93fc8b8

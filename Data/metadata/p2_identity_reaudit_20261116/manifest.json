@@ -1,0 +1,37 @@
+{
+  "script_sha256": "4d75b8572d48ac76c4d65ad1ee056ba3bb37f563d9aa1e9d23658a91cb6da629",
+  "inputs_sha256": {
+    "tmp\\dirtmap_search\\dirtmap_v2\\table1_ice_core.txt": "d6beabb2f204ea56e5e9526e030ec6611dfa8a42c82180285a451767c8bea034",
+    "tmp\\dirtmap_search\\dirtmap_v2\\table2_marine_sediment.txt": "0757c902fd53f3e33358939624c7eae00b3973a52a216d04e5848bf019876913",
+    "tmp\\dirtmap_search\\dirtmap_v2\\table4_non_carb_marine_sed.txt": "dd11912f19fea2e1037f2c325b7833c5bfa60d41b28e2019f53ee3eb3c25d5f6",
+    "tmp\\dirtmap_search\\dirtmap_v2\\table5_terrestrial_sediment.txt": "93d18e1307282a7f7ae515fff87c525d91e054556d6432f9deabacd7e83c83e0",
+    "tmp\\dirtmap_search\\dirtmap_v2\\table6_all_data.txt": "dfabcd58d7b17fd196d30560b2af0935c88ca3ec025ad572ed668e542ac08fe3",
+    "tmp\\dirtmap_search\\dirtmap_v2\\table7_flagged_data.txt": "b4754db6710694cad0d9af32e1ac7940b8d45755ba802db176f1beb1748f52d0",
+    "tmp\\dirtmap_search\\dirtmap_v2\\readme_dirtmap_v2.txt": "691a903e7d8950b30d11b3948bce3e79d07cedf224066b4442162a5a8bd4ecc9",
+    "Data\\metadata\\lambert2015_si\\tmp_conv\\supinfo.docx": "d5b62b069747032cdbcd11bed3b9d1198a7cb0ec27381f32f2a01ec050cf7970",
+    "Data\\metadata\\lambert2015_si\\grl53218-sup-0010-supinfo.doc": "3dd369d7d5ac460090fd34837aa5eb47e127bdca4d975bf364af9cc5a7aac2cc",
+    "Data\\model_results\\v5_pmip4_2d\\p2_local_lineage_audit_20261115\\record_metadata_status_317.csv": "52b99a3c824fa259905a0e3b29ef20e8989da8aaf6f20f10e1e51bedabc20b44",
+    "Data\\original_data\\MAR_LGM.csv": "722417c1f7727d1c724c7e12b720601b640380fda0403f08c23c9c62a0f1dfc5",
+    "Data\\metadata\\dirtmap_v2_identity\\input_to_DirtmapV2_identity.csv": "d22ef7c59ddd0a052ec243c0304d024fd6262bc06a9ede718d4e910763f4b93c",
+    "Data\\processed_data\\df_empirical_LGM.csv": "bcb3807623bafc7d98a85a7c3c0665b7467dcd9c8247fc55294d6860af49ba45",
+    "manuscript\\main.tex": "1b24808371ee3e38483008ee9e727ae5efd6e6168cb0a6ae3c3cbce75d119e6e",
+    "manuscript\\cas-refs.bib": "2d1a76ece5c86808a326cedd5f991b9cd4fb4799b222b2d71716d9846985e98c"
+  },
+  "reports_sha256": {
+    "DIRTMAPv2_逐记录表与编制说明_20261116.md": "ba400dde9c8442bd63b577a997c25b7d79b85747ae6652a589ea885d1acfe006",
+    "DIRTMAP_source_search_20261116.md": "d9189725f386c85d1a72bcfff2c85cb47dd86e40a8ece563ba6fb70fa9cbfb15",
+    "Lambert2015_SI_TableS1解析_20261116.md": "19dd34962c2d70b60d673246657641a51c709bd3b4dbe9e04d917ca486502be6",
+    "材料清单总表_20261116.md": "7cd35f6f2a1ce6c9bc48a5e570da526e723204b0abaa07e52003076fbd9dc35d"
+  },
+  "outputs_sha256": {
+    "all_source_candidates.csv": "194b87f0944032d3d8ed8acb94b40bcd300ca5a61162e612a6a485f11e586a12",
+    "historical_marine_age_combinations.csv": "f9257f7073d05066bdd0ec0d77b1e076597e0a8b92880ba040723e8cef7cecd3",
+    "historical_marine_age_rows.csv": "4cb570389dae628453fee93b5296a788ae289589ed4a753b0d7e22a7218c1a4d",
+    "Lambert2015_TableS1_from_docx.csv": "df3fc6eb0e256c3c551efcff9d605da45a99ae91454aca1b3bbfa50cea7f1033",
+    "legacy_309_to_record_id.csv": "ffc483c9c9b33993d3741ca0b5dfac4919ee0f7f36ddeb8c78c945c801172a7d",
+    "README.md": "96be850880c3cfaf3b77640bb11290ceb5631bc4b0bfaf9f1162341c7e9162ce",
+    "record_candidate_status_317.csv": "6a4c47d47c4ef829fb23061071057adc19ab55bc7c74ca51e3adb2ca4858c654",
+    "source_table_inventory.csv": "62d96ebdf15cfe23f0d192d9a89fd4b0b9c6918ac5ec23feb0e925fab3d2468b",
+    "summary.json": "687d0ffd69662a159f3479beafc3ca973bee666492cc2975ad4388f1b42572fa"
+  }
+}
